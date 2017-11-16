@@ -42,7 +42,8 @@
 
 
 /* 1. Import Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,100,300,500);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,100,300,500); */
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Slabo+27px); 
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

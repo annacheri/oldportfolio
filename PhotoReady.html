@@ -56,6 +56,9 @@ window['_fs_namespace'] = 'FS';
   <script src="js/vendor/detectizr.min.js"></script>
   <!-- Font Awesome -->
   <script src="https://use.fontawesome.com/947f275de0.js"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px" rel="stylesheet">
 </head>
 
 <!-- Body -->
@@ -79,37 +82,47 @@ window['_fs_namespace'] = 'FS';
       <div class="navbar">
         <div class="inner">
 
-          <!-- Site Logo -->
-          <a href="index.html" class="site-logo">
-            <img src="img/logo.png" alt="Anna E. Cherian Portfolio">
-          </a>
 
-          <!-- Main Navigation -->
-          <nav class="main-navigation">
-            <!-- Alignment classes: pull-right, pull-left. -->
-            <div class="toolbox pull-right">
-              <div class="inner">
-                <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
+          <!-- Floating Header -->
+    <header class="floating-header">
+
+      <!-- Site Logo
+      <a href="index.html" class="site-logo">
+        <img src="img/floating-logo.png" alt="Anna E. Cherian Portfolio">
+      </a><! .floating-logo -->
+
+      <!-- Floating Menu -->
+      <div class="floating-menu-btn">
+        <div class="floating-menu-toggle-wrap">
+          <div class="floating-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div><!-- .floating-menu-toggle -->
+        </div><!-- .floating-menu-toggle-wrap -->
+      </div><!-- .floating-menu-btn -->
+
+      <div class="main-navigation-wrap">
+        <nav class="main-navigation" data-back-btn-text="Back">
+          <ul class="menu">
+            <li class="menu-item-has-children ">
+              <ul class="sub-menu">
+                <!-- <li class="current-menu-item"><a href="portfolioproject1.html">Project 1</a></li>
+                 <li><a href="portfolioproject2.html">Project 2</a></li> -->
+              </ul>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="PhotoReady.html">Work</a></li>
+           <!--  <li><a href="BlogPage.html">Blog</a></li> -->
+            <li><a href="AboutMePage.html">About Me</a></li>
+            <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
                </a>
-              </div>
-            </div><!-- .toolbox -->
-            <!-- Alignment classes: pull-right, pull-center. No class will align menu on the left. -->
-            <ul class="menu pull-right">
-              <li class="menu-item-has-children">
-                <ul class="sub-menu">
-                  <!-- <li><a href="portfolioproject1.html">Project 1</a></li>
-                  <li><a href="portfolioproject2.html">Project 2</a></li> -->
-
-                </ul>
-              </li>
-              <li><a href="index.html">Home</a></li>
-              <li class="current-menu-item"><a href="PhotoReady.html">Work</a></li>
-              <!-- <li><a href="BlogPage.html">Blog</a></li> -->
-              <li><a href="AboutMePage.html">About Me</a></li>
-              <!-- <li><a href="ContactPage.html">Contact</a></li> -->
-              <!-- <li><a href="elements.html">Elements</a></li> -->
-            </ul><!-- .menu -->
-          </nav><!-- .main-navigation -->
+            <!-- <li><a href="ContactPage.html">Contact</a></li> -->
+            <!-- <li><a href="elements.html">Elements</a></li> -->
+          </ul><!-- .menu -->
+        </nav><!-- .main-navigation -->
+      </div><!-- .main-navigation-wrap -->
+    </header><!-- .floating-header -->
 
           <!-- Mobile Menu Toggle -->
           <!-- Visible only when viewport is 991px and less. Can be changed via $nav-collapse variables in _variables.scss -->
@@ -384,7 +397,7 @@ window['_fs_namespace'] = 'FS';
                 <!-- <p>With the market research completed, the interface of Photo Ready planning began, and what features were most vital to it's design were highlighted. I created an affinity map to prioritize features.</p> -->
 
                 <!-- INSERT AFFINITY MAP -->
-                <!-- <img src="imp/portfolio/photoready/affinitymap.jpg alt="affinity map">
+                <!-- <img src="imp/portfolio/photoready/affinitymap.jpg alt="affinity map"> -->
 
                 <h3>Information Architecture</h3>
 

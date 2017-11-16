@@ -80,37 +80,47 @@ window['_fs_namespace'] = 'FS';
       <div class="navbar">
         <div class="inner">
 
-          <!-- Site Logo -->
-          <a href="#" class="site-logo">
-            <img src="img/logo.png" alt="Anna E. Cherian Portfolio">
-          </a>
 
-          <!-- Main Navigation -->
-          <nav class="main-navigation">
-            <!-- Alignment classes: pull-right, pull-left. -->
-            <div class="toolbox pull-right">
-              <div class="inner">
-                <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
+          <!-- Floating Header -->
+    <header class="floating-header">
+
+      <!-- Site Logo
+      <a href="index.html" class="site-logo">
+        <img src="img/floating-logo.png" alt="Anna E. Cherian Portfolio">
+      </a><! .floating-logo -->
+
+      <!-- Floating Menu -->
+      <div class="floating-menu-btn">
+        <div class="floating-menu-toggle-wrap">
+          <div class="floating-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div><!-- .floating-menu-toggle -->
+        </div><!-- .floating-menu-toggle-wrap -->
+      </div><!-- .floating-menu-btn -->
+
+      <div class="main-navigation-wrap">
+        <nav class="main-navigation" data-back-btn-text="Back">
+          <ul class="menu">
+            <li class="menu-item-has-children ">
+              <ul class="sub-menu">
+                <!-- <li class="current-menu-item"><a href="portfolioproject1.html">Project 1</a></li>
+                 <li><a href="portfolioproject2.html">Project 2</a></li> -->
+              </ul>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="PhotoReady.html">Work</a></li>
+           <!--  <li><a href="BlogPage.html">Blog</a></li> -->
+            <li><a href="AboutMePage.html">About Me</a></li>
+            <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
                </a>
-              </div>
-            </div><!-- .toolbox -->
-            <!-- Alignment classes: pull-right, pull-center. No class will align menu on the left. -->
-            <ul class="menu pull-right">
-              <li class="menu-item-has-children">
-                <ul class="sub-menu">
-                  <!-- <li><a href="portfolioproject1.html">Project 1</a></li>
-                  <li><a href="portfolioproject2.html">Project 2</a></li>
-                  <li><a href="portfolioproject3.html">Project 3</a></li> -->
-                </ul>
-              </li>
-              <li><a href="index.html">Home</a></li>
-              <li  class="current-menu-item"><a href="PhotoReady.html">Work</a><li>
-              <!-- <li><a href="BlogPage.html">Blog</a></li> -->
-              <li><a href="AboutMePage.html">About Me</a></li>
-              <!-- <li><a href="ContactPage.html">Contact</a></li> -->
-              <!-- <li><a href="elements.html">Elements</a></li> -->
-            </ul><!-- .menu -->
-          </nav><!-- .main-navigation -->
+            <!-- <li><a href="ContactPage.html">Contact</a></li> -->
+            <!-- <li><a href="elements.html">Elements</a></li> -->
+          </ul><!-- .menu -->
+        </nav><!-- .main-navigation -->
+      </div><!-- .main-navigation-wrap -->
+    </header><!-- .floating-header -->
 
           <!-- Mobile Menu Toggle -->
           <!-- Visible only when viewport is 991px and less. Can be changed via $nav-collapse variables in _variables.scss -->
@@ -182,26 +192,31 @@ window['_fs_namespace'] = 'FS';
               <div class="portfolio-meta padding-bottom-2x">
                 <span>UX Case Study</span>
                 <span>/</span>
-                <a href="#">Transportation Application</a>
+                <span>Transportation Application</span>
               </div>
             </div>
           </div><!-- .fw-setcion -->
           <div class="single-post-container padding-top-3x padding-bottom-1x">
             <div class="row padding-top">
                 <h2>Discover the New Austin Transportation Experience.</h2>
-                <p>Overview: We have observed that Austin CapMetro App isn’t meeting users’ needs of easily finding routes to take and getting notifications for rides, which is causing less users to use the app and ride the bus. We asked ourselves how might we improve the existing application so that the product is more successful based on user use of the app and bus tickets bought.</p>
-                 <p>After identifying that the app inefficiently conveys information, we decided to ask potential users of the Austin CapMetro app what their current frusterations were with the existing app and what features they were looking for.</p>
+                <img class="center-block" src="img/portfolio/capmetro/capmetroindex.jpg" alt="capmetro app">
+                <p>Overview: It has been observed that Austin CapMetro App isn’t meeting users’ needs of easily finding routes to take and getting notifications for rides, which is causing less users to use the app and ride the bus. We asked ourselves how might we improve the existing application so that the product is more successful based on user use of the app and bus tickets bought.</p>
+                 <p>After identifying that the app inefficiently conveys information, I decided to ask potential users of the Austin CapMetro app what their current frusterations were with the existing app and what features they were looking for.</p>
+                 <p>I asked users a series of questions to better understand their transportation behavior.<a href="#" class="text-gray" onclick="window.open('https://indd.adobe.com/view/4f271dc9-fcf2-4891-aa1c-1361b6cf3c38')">View Interview Questions Here.</a>
                  <img class="center-block" src="img/portfolio/capmetro/art.svg" alt="bus pic">
-                 <p>We asked users a series of questions to better understand their transportation behavior.<a href="#" class="text-gray" onclick="window.open('https://indd.adobe.com/view/4f271dc9-fcf2-4891-aa1c-1361b6cf3c38')">View Interview Questions Here.</a>
-
-                  <p>After getting initial insight to the current problems that exist within the CapMetro app, we also assigned users to login within the current application and perform different tasks to help us identify interface issues and identify needed features.</p>
-                  <p>Perform these tasks:</p>
+                  <p>Once I got initial insight to the current problems that exist within the CapMetro app, I also assigned users to login within the current application and perform different tasks to help us identify interface issues and identify needed features.</p>
+                  <h6>Perform these tasks:</h6>
                     <ol>
-                      <li>Open app, look at bus routes, and upload current address in profile page.
-                      <li>Find a route from point A to point B.</li>
-                      <li>Finding bus stops near your current location.</li>
-                      <li>Track buses leaving after 8am from your current location.</li>
+                      <li>Open app and input a route from point A to point B.
+                      <li>View different route options.</li>
+                      <li>Select preferred route and share ride with a contact.</li>
+                      <li>Track buses in your current location.</li>
+                      <li>Buy a single pass ticket.</li>
                     </ol>
+                  <p>Shown below is the current workflow for performing these actions within the app, and listed below are my critiques.</p>
+                  <img src="img/portfolio/capmetro/currentissues.png" alt="Current issues with interface"></a>
+                  <h6>Main takeaways from user interviews and evaluating the task analysis:</h6>
+            <img src="img/portfolio/capmetro/maingoals.png" alt="Main Goals">
               </div>
             </div><!-- .row -->
           </div><!-- .single-post-container -->
@@ -227,10 +242,11 @@ window['_fs_namespace'] = 'FS';
             </div><!--div class -->
           </div><!-- .row -->
         </div><!-- .single-post-container -->
+
       <div class="single-post-container">
         <div class="row padding-top padding-bottom">
           <div class="col-lg-13 space-bottom-1x"><!-- Task analysis-->
-        <p>We decided to focus on designing specifically with the biker persona in mind, with the intention of creating an easier experience transitioning from bike to bus on a person's daily commute while remaining mobile. We wanted features for being able to reserve a spot on the bike rack, and a way to let bus drivers know that extra time should be alloted for the loading time. The ultimate goal of the CapMetro design was to simplify.</p>
+        <p>I decided to focus on designing specifically with the biker persona in mind, with the intention of creating an easier experience transitioning from bike to bus on a person's daily commute while remaining mobile. I wanted features for being able to reserve a spot on the bike rack, and a way to let bus drivers know that extra time should be alloted for the loading time. The ultimate goal of the CapMetro design was to simplify.</p>
           </div><!--div class-->
         </div><!-- .row -->
       </div><!-- .single-post-container -->
@@ -240,16 +256,16 @@ window['_fs_namespace'] = 'FS';
       <br>
 
       <!-- Design Process Video -->    
-      <div class="single-post-container padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/capmetro/video1.jpg); background-color: #cecece;">
+      <div class="single-post-container padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/capmetro/video1.jpg); background-color: #cecece;"> 
             <div class="single-post-container padding-top-3x padding-bottom-3x">
               <div class="video-popup-btn text-light text-center padding-top-3x padding-bottom-3x">
-                <a href="https://www.youtube.com/watch?v=pN6YCFlS8nU" class="play-btn">
+                <!-- <a href="https://www.youtube.com/watch?v=pN6YCFlS8nU" class="play-btn"> 
                   <i class="material-icons play_arrow"></i>
-                </a>
-                <span class="btn-label">Our Design Process</span>
+                </a> -->
+                <span class="btn-label">Design Process Coming Soon</span> 
               </div><!-- .video-popup-btn -->
             </div><!-- .single-post-container -->
-          </div><!-- .fw-section -->
+          </div><!-- .fw-section --> 
 
 
           <div class="single-post-container padding-top-3x padding-bottom-3x">
@@ -284,10 +300,11 @@ window['_fs_namespace'] = 'FS';
 <div class=" single-post-container padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/capmetro/video2.jpg); background-color: #cecece;">
             <div class="single-post-container padding-top-3x padding-bottom-3x">
               <div class="video-popup-btn text-light text-center padding-top-3x padding-bottom-3x">
-                <a href="https://www.youtube.com/watch?v=pN6YCFlS8nU" class="play-btn">
+                <!-- <a href="https://www.youtube.com/watch?v=pN6YCFlS8nU" class="play-btn"></a> -->
+                <a href="#" class="play-btn">
                   <i class="material-icons play_arrow"></i>
                 </a>
-                <span class="btn-label">Deliverable</span>
+                <span class="btn-label">Deliverable Coming Soon</span>
               </div><!-- .video-popup-btn -->
             </div><!-- .single-post-container -->
           </div><!-- .fw-section -->

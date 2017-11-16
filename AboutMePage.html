@@ -80,37 +80,48 @@ window['_fs_namespace'] = 'FS';
       <div class="navbar">
         <div class="inner">
 
-          <!-- Site Logo -->
-          <a href="index.html" class="site-logo">
-            <img src="img/logo.png" alt="Anna E. Cherian Portfolio">
-          </a>
 
-          <!-- Main Navigation -->
-          <nav class="main-navigation">
-            <!-- Alignment classes: pull-right, pull-left. -->
-            <div class="toolbox pull-right">
-              <div class="inner">
-              <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
+          <!-- Floating Header -->
+    <header class="floating-header">
+
+      <!-- Site Logo
+      <a href="index.html" class="site-logo">
+        <img src="img/floating-logo.png" alt="Anna E. Cherian Portfolio">
+      </a><! .floating-logo -->
+
+      <!-- Floating Menu -->
+      <div class="floating-menu-btn">
+        <div class="floating-menu-toggle-wrap">
+          <div class="floating-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div><!-- .floating-menu-toggle -->
+        </div><!-- .floating-menu-toggle-wrap -->
+      </div><!-- .floating-menu-btn -->
+
+      <div class="main-navigation-wrap">
+        <nav class="main-navigation" data-back-btn-text="Back">
+          <ul class="menu">
+            <li class="menu-item-has-children ">
+              <ul class="sub-menu">
+                <!-- <li class="current-menu-item"><a href="portfolioproject1.html">Project 1</a></li>
+                 <li><a href="portfolioproject2.html">Project 2</a></li> -->
+              </ul>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="PhotoReady.html">Work</a></li>
+           <!--  <li><a href="BlogPage.html">Blog</a></li> -->
+            <li><a href="AboutMePage.html">About Me</a></li>
+            <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
                </a>
-              </div>
+            <!-- <li><a href="ContactPage.html">Contact</a></li> -->
+            <!-- <li><a href="elements.html">Elements</a></li> -->
+          </ul><!-- .menu -->
+        </nav><!-- .main-navigation -->
+      </div><!-- .main-navigation-wrap -->
+    </header><!-- .floating-header -->
 
-            </div><!-- .toolbox -->
-            <!-- Alignment classes: pull-right, pull-center. No class will align menu on the left. -->
-             <ul class="menu pull-right">
-              <li class="menu-item-has-children">
-                <ul class="sub-menu">
-                  <!-- <li><a href="portfolioproject1.html">Project 1</a></li>
-                  <li><a href="portfolioproject2.html">Project 2</a></li> -->
-                </ul>
-              </li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="PhotoReady.html">Work</a></li>
-              <!-- <li><a href="BlogPage.html">Blog</a></li> -->
-              <li class="current-menu-item"><a href="AboutMePage.html">About Me</a></li>
-              <!-- <li><a href="ContactPage.html">Contact</a></li> -->
-              <!-- <li><a href="elements.html">Elements</a></li> -->
-            </ul><!-- .menu -->
-          </nav><!-- .main-navigation -->
 
           <!-- Mobile Menu Toggle -->
           <!-- Visible only when viewport is 991px and less. Can be changed via $nav-collapse variables in _variables.scss -->
@@ -174,32 +185,32 @@ window['_fs_namespace'] = 'FS';
     <section class="container padding-top-2x">
       <div class="timeline">
         <div class="inner">
-          <!-- <div class="timeline-column">
-            <span class="date">September 2017</span>
-            <span class="divider"></span>
-            <div class="timeline-column-body">
-              <div class="item">
-                <h6>Frank & Angies Promo Video</h6>
-                <p class="text-sm text-gray">Recorded day to day experiences in house and experimented with various videography techniques including rotoscope, cinemagraphs, and GIFS for social channels to increase brand awareness.</p>
-              </div>
-              <div class="item">
-                <h6>Hut's Hamburgers Website Redesign</h6>
-                <p class="text-sm text-gray">After insightful user research to better understand customers’ needs, I redesigned Hut’s Hamburgers website page to enhance the experience of guests by implementing an up-to-date reponsive web page with easy to access restaurant information.</p>
-              </div>
-            </div>
-          </div> -->
           <div class="timeline-column">
-            <span class="date"> October 2017</span>
+            <span class="date">September 2017</span>
             <span class="divider"></span>
             <div class="timeline-column-body">
               <div class="item">
                 <a href="PhotoReady.html"><h6>Photo Ready App</h6></a>
                 <p class="text-sm text-gray">A platform where photographers and models can communicate and network.</p>
               </div>
+              <!-- <div class="item">
+                <h6>Hut's Hamburgers Website Redesign</h6>
+                <p class="text-sm text-gray">After insightful user research to better understand customers’ needs, I redesigned Hut’s Hamburgers website page to enhance the experience of guests by implementing an up-to-date reponsive web page with easy to access restaurant information.</p>
+              </div> -->
+            </div>
+          </div> 
+          <div class="timeline-column">
+            <span class="date"> October 2017</span>
+            <span class="divider"></span>
+            <div class="timeline-column-body">
+              <div class="item">
+                <a href="CapMetroApp.html"><h6>Austin CapMetro App</h6></a>
+                <p class="text-sm text-gray">Features included RSVPing seats and bike rack on bus, live tracking of buses nearby, and ability to send ETA information to contacts.</p>
+              </div>
             </div>
           </div>
           <div class="timeline-column">
-            <span class="date">November 2017 (In Progress)</span>
+            <span class="date">November 2017 (Underway)</span>
             <span class="divider"></span>
             <div class="timeline-column-body">
               <div class="item">
@@ -210,7 +221,7 @@ window['_fs_namespace'] = 'FS';
             </div>
           </div>
           <div class="timeline-column">
-            <span class="date">December 2017 (In Progress)</span>
+            <span class="date">December 2017 (Underway)</span>
             <span class="divider"></span>
             <div class="timeline-column-body">
               <div class="item">
@@ -218,14 +229,14 @@ window['_fs_namespace'] = 'FS';
                 <img src="img/timeline/02.jpg" alt="Image">
                 <p class="text-sm text-gray">Strategized separate single shots at the Austin Central Library recorded using Samsung Gear 360 creating a full immersive 360 video experience.</p>
               </div>
-              <div class="item">
+              <!-- <div class="item">
                 <a href="CapMetroApp.html"><h6>Austin CapMetro App</h6></a>
                 <p class="text-sm text-gray">Features included live tracking of buses nearby, ability to send ETA information to contacts, and locate pick up and drop off points near the user's location.</p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="timeline-column">
-            <span class="date">January 2018 (In Progress)</span>
+            <span class="date">January 2018 (Underway)</span>
             <span class="divider"></span>
             <div class="timeline-column-body">
               <div class="item">
@@ -301,36 +312,6 @@ window['_fs_namespace'] = 'FS';
         </div><!-- .col-sm-4 -->
       </div><!-- .row -->
     </section><!-- .container -->
-
-    <!-- Subscription -->
-    <section class="fw-section padding-top-3x padding-bottom-3x" style="background-image: url(img/about/subscribe-bg.jpg);">
-      <span class="overlay" style="background-color: #000; opacity: .7;"></span>
-      <div class="container">
-        <!-- <h3 class="text-light">Stay Up to Date With My Design News</h3> -->
-        <!-- Contact form -->
-        <form action="https://us16.admin.mailchimp.com/lists/members/add?id=85115" method="post" class="subscription-form" target="_blank" novalidate autocomplete="off">
-         <!-- <div class="row">
-            <div class="col-lg-6 col-md-7">
-              <div class="row">
-                <div class="col-sm-8">
-                  <div class="form-input form-input-light">
-                    <input type="email" name="EMAIL" id="email">
-                    <!-- <label for="email">e-mail</label> -->
-                  </div> -->
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;">
-                    <input type="text" name="b_168a366a98d3248fbc35c0b67_011a3332a0" tabindex="-1" value="">
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;">
-                    <input type="text" name="b_168a366a98d3248fbc35c0b67_011a3332a0" tabindex="-1" value="">
-                  </div>
-                  <!-- <button type="submit" class="btn btn-primary btn-icon-right btn-block waves-effect waves-light">
-                    Subscribe
-                    <i class="material-icons send"></i> -->
-                  </button>
                 </div>
               </div>
             </div>
