@@ -43,7 +43,9 @@
 
 /* 1. Import Google Fonts */
 /* @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,100,300,500); */
-@import url(http://fonts.googleapis.com/css?family=Montserrat|Slabo+27px); 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -9920,7 +9922,7 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   background-color: #19bf4f;
-}  
+}
 
 
 .btn-primary:hover {
