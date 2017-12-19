@@ -6288,6 +6288,9 @@ h1, h2, h3, h4, h5, h6, p {
 .material-icons.zoom_out_map:before {
   content: "\e56b";
 }
+#pr-center {
+  width: 100%;
+}
 
 /*
   Flaticon icon font: Flaticon
