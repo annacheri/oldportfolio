@@ -8747,14 +8747,14 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   text-transform: none;
 }
 
 h5, .h5 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   text-transform: none;
   line-height: 1.5;
@@ -8762,7 +8762,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   text-transform: none;
   line-height: 1.5;
@@ -13504,7 +13504,7 @@ input[type="button"].btn-block {
 
 .block-title.block-title-secondary,
 .block-subtitle.block-title-secondary {
-  color: #0012ff;
+  color: #340866;
 }
 
 .block-title.block-title-info,
@@ -14703,7 +14703,7 @@ input[type="button"].btn-block {
 
 .widget_menu ul > .current-menu-item > a {
   color: #4c4c4c;
-  border-bottom-color: #19bf4f;
+  border-bottom-color: #340866;
 }
 
 .widget_socials .social-bar a {
