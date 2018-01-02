@@ -15,6 +15,12 @@ video {
   text-decoration: none;
 }
 
+.index {
+  text-align: center;
+  position: relative;
+  top: 350px;
+}
+
 .text-motherboard {
 	color: #04060c;
 }
