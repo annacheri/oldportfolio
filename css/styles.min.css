@@ -11,6 +11,10 @@ video {
 	margin-right:auto;
 }
 
+.time {
+  text-decoration: none;
+}
+
 .text-motherboard {
 	color: #04060c;
 }
