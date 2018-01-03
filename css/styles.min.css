@@ -11,6 +11,19 @@ video {
 	margin-right:auto;
 }
 
+#pr {
+  width: 65%;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#pr-center {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
 .time {
   text-decoration: none;
 }
