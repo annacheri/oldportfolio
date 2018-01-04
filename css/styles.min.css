@@ -3,6 +3,12 @@ video {
   height: auto;
 }
 
+@media (max-width: 375px) {
+  #responsive {
+    display: none;
+  }
+}
+
 #animation {
 	width: 50%;
 	height: auto;
