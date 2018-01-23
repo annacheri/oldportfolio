@@ -151,7 +151,25 @@
     background: #222;
 }
 
+@media (max-width: 375px) {
+  .cbp-item-wrap {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 /* end cards */
+
+@media (max-width: 375px) {
+  .client {
+    margin-bottom: 1px;
+  }
+}
+
+.titlename {
+  text-align: center;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -165,6 +183,12 @@ video {
 @media (max-width: 375px) {
   #responsive {
     display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .vimeo {
+    height: 100%;
   }
 }
 
