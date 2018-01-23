@@ -1,5 +1,9 @@
 /* Cards test */
-
+@media (max-width: 375px) {
+  .body {
+    font-family: "Open Sans", sans-serif;
+  }
+}
 
 /* description box */
 .cbp-item-wrap {
