@@ -171,6 +171,10 @@
   text-align: center;
 }
 
+.timeline-column {
+  margin-bottom: 15px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
