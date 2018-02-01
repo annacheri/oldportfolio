@@ -5,6 +5,17 @@
   }
 }
 
+.left1 {
+  width: 45%;
+  height: auto;
+}
+
+.right1 {
+  width: 45%;
+  height: auto;
+  float: right;
+}
+
 /* description box */
 .cbp-item-wrap {
     background: #f2f2f2;
@@ -19,6 +30,10 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.btn-pink {
+  position: static;
 }
 
 /* action and navigatin buttons */
