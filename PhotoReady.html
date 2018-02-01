@@ -67,8 +67,6 @@ window['_fs_namespace'] = 'FS';
 </head>
 
 <!-- Body -->
-<!-- Adding/Removing class ".parallax" is enabling/disabling background parallax effect on elements with background images and attributes data-stellar-background-ratio applied to them. Make sure you also added/removed link to stellar.js script before </body>. -->
-<!-- Adding/Removing class ".page-preloading" is enabling/disabling background smooth page transition effect and spinner. Make sure you also added/removed link to page-preloading.js script before </body> and ".page-preloader" right after <body> tag. -->
 <body class="parallax page-preloading">
 
   <!-- Page Pre-Loader -->
@@ -80,10 +78,6 @@ window['_fs_namespace'] = 'FS';
 
   <!-- Page Wrapper -->
   <div class="page-wrapper">
-
-    <!-- Navbar -->
-    <!-- Add class ".header-sticky" to make navbar stuck when it hits the top of the page. Another modifier class is: ".header-fullwidth" to stretch navbar and make it occupy 100% of the page width. The screen width at which header collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
-
 
           <!-- Floating Header -->
     <header class="floating-header">
@@ -104,8 +98,6 @@ window['_fs_namespace'] = 'FS';
           <ul class="menu">
             <li class="menu-item-has-children ">
               <ul class="sub-menu">
-                <!-- <li class="current-menu-item"><a href="portfolioproject1.html">Project 1</a></li>
-                 <li><a href="portfolioproject2.html">Project 2</a></li> -->
               </ul>
             </li>
             <li><a href="index.html">Work</a></li>
@@ -132,53 +124,43 @@ window['_fs_namespace'] = 'FS';
               </div> 
             </div>
           </div><!-- .fw-setcion -->
-          <div class="single-post-container padding-top-3x padding-bottom-1x"> 
-             <div class="col-lg-13 padding-bottom-2x"> 
-              <h1 class="titlename">Meet Photo Ready.</h1>
+          <section class="container padding-top-3x"> 
+              <h1 style="text-align: center;">Meet Photo Ready.</h1>
                 <h4>Overview: Designed to simplify communication barriers for freelance photographers and models, Photo Ready features calendar syncing capabilities and options for profile pages to have references listed and portfolio sites linked.</h4>
 
                  <iframe src="https://player.vimeo.com/video/250101323" width="100%" height="360" class="vim vimeo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                <br>
+                
                 <p>Purpose: It became clear that for people who do freelance work part-time, the most difficult part about their side gig is finding the time to meet with clients. Photo Ready was inspired after idenifying that no app can currently match clients together based on talent level and assist in scheduling.</p>
 
 
                 <p>Objective: The idea behind the Photo Ready project was to find the best way to meet the needs of freelance creative workers. I built out a prototype that collects locations of workers, allow them to “discover” one another, browse each other’s portfolios and references, safely message one another, and find a mutual time to meet through syncing calendar availiability.</p>
-                <!-- story board-->
+
                 <h3>Design Process:</h3>
-                <!-- Design process flow chart-->
+
                 <img src="img/portfolio/photoready/designprocess1.0.svg" alt="Photo Ready Design Process">
                 <p>Before designing the product, I talked to potential users of my app as well as performed market research to see what the leading competitors were doing. I attended an Austin Photography meet up for creatives and models and interviewed anyone who would spend 15 minutes with me.</p>
 
-                <a href="#" class="text-gray" onclick="window.open('https://indd.adobe.com/view/621e48a7-77e0-4cb5-a79f-c0e4c02385da')">View Interview Questions Here</a>
-                <br>
-                <br>
-                 <img src="img/portfolio/photoready/keyfindings.png" alt="key findings">
-                 <br>
+                Once the <a href="#" class="text-gray" onclick="window.open('https://indd.adobe.com/view/621e48a7-77e0-4cb5-a79f-c0e4c02385da')">Interview Questions</a> were completed, I reported some key findings for the app. 
+                <ul style="list-style-type:circle">
+                  <li>References are requested</li>
+                  <li>Calender syncing and comparison</li>
+                  <li>Private chats that protect contact info</li>
+                  <li>Models provide personal dimensions</li>
+                </ul>
+
                 <p>By building a few personas, I was able to keep in mind my target audience throughout my entire design process and prioritize features due to user feedback.<p>
 
-    <!-- Personas -->
-    <div class="row">
-      <div class="single-post-container padding-top-1x padding-bottom-1x">
-        <div class="col-lg-13 space-bottom-1x">
-          <!-- Nav Tabs -->
-          <ul class="nav-tabs" role="tablist">
-            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Persona 1</a></li>
-            <li><a href="#tab2" role="tab" data-toggle="tab">Persona 2</a></li>
-            <li><a href="#tab3" role="tab" data-toggle="tab">Persona 3</a></li>
-          </ul><!-- .nav-tabs -->
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div role="tabpanel" class="tab-pane transition fade in active" id="tab1">
-            <img src="img/portfolio/photoready/per1.png" alt ="persona 1"></div>
-            <div role="tabpanel" class="tab-pane transition fade" id="tab2">
-            <img src="img/portfolio/photoready/per2.png" alt ="persona 2"></div>
-            <div role="tabpanel" class="tab-pane transition fade" id="tab3">
-            <img src="img/portfolio/photoready/per3.png" alt ="persona 3"></div>
-          </div><!-- .tab-content -->
-        </div><!-- .col-sm-6 -->
-        <br>
+              <div class="personas">
+                <div class="photoleft">
+                  <img src="img/portfolio/photoready/per1.png" alt ="persona 1">
+                </div>
+                <div class="photoright">
+                  <img src="img/portfolio/photoready/per3.png" alt ="persona 2">
+                </div>
+              </div>
+            </section>
 
-          <div class="col-lg-13 padding-bottom-2x">
+            <section class="container padding-top-3x"> 
             <p>No platform that did what Photo Ready was going to do, so I evaluated competing apps that offered any service relatable to what Photo Ready could offer. Its platform would include a "discovering people" feature,  so I compared companies that offered the capability for people to communicate. Additionally I looked at calendar apps and messaging platforms to observe the best interface for accomplishing user needs in a clear and concise way.<p>
 
 
@@ -326,22 +308,24 @@ window['_fs_namespace'] = 'FS';
       </div><!-- .table-responsive -->
                 <p>With the market research completed, the interface of Photo Ready planning began, and what features were most vital to it's design were highlighted. I brainstormed solutions to prioritize features. Once I knew what aspects were the most valued for the product, I began to build out the hierarchy of how the information could be found within the app.</p> 
 
-                <!-- INSERT AFFINITY MAP -->
-                <img src="img/portfolio/photoready/affinitymap.jpeg" alt="affinity map"> 
-                <br>
                 <h3>Information Architecture</h3>
                 <!-- insert information architecture -->
                 <img src="img/portfolio/photoready/infoarch.svg" alt="information architecture">
 
                 <p>Originally I decided against an icon navigation bar across the bottom of the screen because I wanted to maximize my screen space and use more local navigation. I later decided against this to ease use. A button for global navigation was also created that caused a side tool bar to pop up, providing access to the different screens.<p>
 
-                <h3>Low fidelity mockups:</h3>
-
-                <img src="img/portfolio/photoready/lowfi.png" alt="low-fi prototypes">
-                <br>
-                <h3>Medium fidelity mockups:</h3>
-                <img src="img/portfolio/photoready/Med Fi Proto with edits.png" id="pr-center" alt="med-fi prototypes">
-                <br>
+                <h3>Low &amp medium fidelity mockups:</h3>
+                
+                <div class="personas">
+                  <div class="photoleft">
+                    <img src="img/portfolio/photoready/lowfi.png" alt ="persona 1">
+                  </div>
+                  <div class="photoright">
+                    <img src="img/portfolio/photoready/Med Fi Proto with edits.png" alt ="persona 2">
+                  </div>
+                </div>
+                </section>
+                <section class="container padding-top-3x">
                 <p>With the medium fidelity mockups up and running, usability tests were performed on Photo Ready. I chose to run tests on an unfinished product so I didn't waste time making high fidelity designs without taking into account user feedback, and so users didn't get attached to a certain visual design and expect the product to be fully completed. Some people were asked to click through the app while I silently observed, seeing what pain points they had or if there were any unclear buttons. Others were asked to perform a specific task flow:<p>
 
 
@@ -361,25 +345,17 @@ window['_fs_namespace'] = 'FS';
                 <h3>High fidelity mockups:</h3>
                 <br>
                  <img class="center-block" src="img/portfolio/photoready/highfidelity.png" alt="demo highfi"> 
-               </div>
-             </div>
-                <br>
-                <br>
-                <br>
+                </section>
+                <section class="container padding-top-3x">
                 <p class="space">After a second round of usability tests, I came across an issue I had not originally forseen. It became clear that both the font weight and color were too light for most users, and was not very accessible. To account for this issue, I altered the font weight from Avenir Book to Avenir Medium and darkened the opacity to match the dark blue seen throughout the app. With these changes in place, my final prototype was ready.</p>
                 <h3><a href="#" class="text-gray space1" onclick="window.open('https://invis.io/XBE6PEOH7#/260867159_Sign_In_')">Click Through Photo Ready Prototype in Invision</a></h3>      
           
-                <img src="img/portfolio/photoready/phones.png" class="center-block pic" alt="demo highfi">
-                <br>
-               
+                
+                <a href="MotherboardAnimation.html"><div class="btn btn-ghost btn-primary waves-effect waves-light" style="margin-bottom: 30px;">Previous</div></a>
+                <a href="PhotoReady.html"><div class="btn btn-ghost btn-primary waves-effect waves-light pull-right" style="margin-bottom: 30px;">Next</div></a>   
               </div>
-              <h6 class="pull-right"><a href="CapMetroApp.html" class="go">prev </a>/<a href="MotherboardAnimation.html" class="go"> next</a></h6>
-              </div>
-            </div><!-- .row -->
-          </div><!-- .single-post-container -->
-        </div><!-- .single-portfolio -->
-      </div><!-- .portfolio-post-wrap -->
-    </div><!-- .portfolio-page -->
+            </section>
+
 
     <!-- Scroll To Top Button -->
     <a href="#" class="scroll-to-top-btn">
