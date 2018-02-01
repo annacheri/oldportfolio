@@ -5,15 +5,21 @@
   }
 }
 
-.left1 {
-  width: 45%;
-  height: auto;
+.personas {
+  display: flex;
 }
 
-.right1 {
+.photoleft {
+  width: 45%;
+  height: auto;
+  flex: 1;
+}
+
+.photoright {
   width: 45%;
   height: auto;
   float: right;
+  flex: 1;
 }
 
 /* description box */
