@@ -36,6 +36,11 @@
   margin-bottom: 3rem;
 }
 
+@font-face {
+  font-family: "Chameleon Outline2";
+  src: url("/fonts/Chameleon Outline2-webfont.ttf") format("ttf"),
+}
+
 @media (max-width: 375px) {
   .photoright {
     display: none;
