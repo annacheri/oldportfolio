@@ -45,10 +45,24 @@
     width: 100%
     flex-wrap: 1;
   }
+
+  .about {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .block-titleindex,.block-subtitle {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .block-titleindexsub,.block-subtitle {
+    font-size: 15px !important;
+  }
 }
 
 .col-sm-anna {
   width: 30%;
+
 }
 
 
@@ -58,7 +72,7 @@
     transition: box-shadow .35s ease-out, transform .3s ease-out, opacity .2s ease-out;
     margin-left: 5px;
     margin-right: 10px;
-    color: #fff;
+    color: #2B2F68;
 }
 
 @media (max-width: 500px) {
