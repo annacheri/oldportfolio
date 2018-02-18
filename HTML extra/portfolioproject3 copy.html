@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107058285-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107058285-1');
+</script>
+
+<script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '865N2';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+    d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+    ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+
+  <meta charset="utf-8">
+  <title>Anna E. Cherian Portfolio | Product Designer + Artist</title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="Art + Design Portfolio of Anna E. Cherian" />
+  <meta name="keywords" content="material design, portfolio, technology, business, corporate, hosting, web, startup, app showcase, mobile, blog, anding, shortcodes, html5, css3, jquery, js, gallery, slider, touch, creative" />
+  <meta name="author" content="annacherian" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.scss-->
+  <link href="css/styles.min.css" rel="stylesheet" media="screen">
+
+  <!-- Page Preloading -->
+  <script src="js/vendor/page-preloading.js"></script>
+
+  <!--Modernizr / Detectizr-->
+  <script src="js/vendor/modernizr.custom.js"></script>
+  <script src="js/vendor/detectizr.min.js"></script>
+</head>
+
+<!-- Body -->
+<!-- Adding/Removing class ".parallax" is enabling/disabling background parallax effect on elements with background images and attributes data-stellar-background-ratio applied to them. Make sure you also added/removed link to stellar.js script before </body>. -->
+<!-- Adding/Removing class ".page-preloading" is enabling/disabling background smooth page transition effect and spinner. Make sure you also added/removed link to page-preloading.js script before </body> and ".page-preloader" right after <body> tag. -->
+<body class="parallax page-preloading">
+
+  <!-- Page Pre-Loader -->
+  <div class="page-preloader">
+    <div class="spinner-wrap">
+      <div class="mdl-spinner mdl-js-spinner is-active"></div>
+    </div>
+  </div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <!-- Add class ".header-sticky" to make navbar stuck when it hits the top of the page. Another modifier class is: ".header-fullwidth" to stretch navbar and make it occupy 100% of the page width. The screen width at which header collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
+    <header class="site-header header-fullwidth header-sticky">
+      <div class="navbar">
+        <div class="inner">
+
+          <!-- Site Logo -->
+          <a href="index.html" class="site-logo">
+            <img src="img/logo.png" alt="Anna E. Cherian Portfolio">
+          </a>
+
+          <!-- Main Navigation -->
+          <nav class="main-navigation">
+            <!-- Alignment classes: pull-right, pull-left. -->
+            <div class="toolbox pull-right">
+              <div class="inner">
+                <a href="#" class="btn btn-floating btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">View My Resume
+               </a>
+              </div>
+            </div><!-- .toolbox -->
+            <!-- Alignment classes: pull-right, pull-center. No class will align menu on the left. -->
+            <ul class="menu pull-right">
+              <li class="menu-item-has-children">
+                <ul class="sub-menu">
+                  <!-- <li><a href="portfolioproject1.html">Project 1</a></li>
+                  <li><a href="portfolioproject2.html">Project 2</a></li> -->
+                  
+                </ul>
+              </li>
+              <li><a href="index.html">Home</a></li>
+              <li class="current-menu-item"><a href="PhotoReady.html">Work</a></li>
+              <!-- <li><a href="BlogPage.html">Blog</a></li> -->
+              <li><a href="AboutMePage.html">About Me</a></li>
+              <li><a href="ContactPage.html">Contact</a></li>
+              <!-- <li><a href="elements.html">Elements</a></li> -->
+            </ul><!-- .menu -->
+          </nav><!-- .main-navigation -->
+
+          <!-- Mobile Menu Toggle -->
+          <!-- Visible only when viewport is 991px and less. Can be changed via $nav-collapse variables in _variables.scss -->
+          <div class="mobile-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div><!-- .mobile-menu-toggle -->
+        </div><!-- .inner -->
+      </div><!-- .navbar -->
+    </header><!-- .site-header -->
+
+    <!-- Portfolio Page -->
+    <div class="portfolio-page">
+
+      <!-- Sidebar -->
+      <span class="sidebar-toggle">
+        <i class="material-icons filter_list"></i>
+      </span>
+      <div class="sidebar-backdrop"></div>
+      <aside class="sidebar">
+        <span class="sidebar-close">
+          <i class="material-icons clear"></i>
+        </span>
+        <div class="scroll-area">
+          <!-- <a href="portfolioproject2.html" --> <a href="#" class="portfolio-post text-light waves-effect waves-light">
+            <span>Augmented Reality Rock Climbing App (Coming Soon!)</span>
+            <img src="img/portfolio/single/th01.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <!-- <a href="PhotoReady.html" class="portfolio-post active text-light waves-effect waves-light">
+            <span>Vacuum Cleaner</span>
+            <img src="img/portfolio/single/th02.jpg" alt="Thumbnail"/> -->
+          </a><!-- .sportfolio-post -->
+          <!-- <a href="portfolioproject1.html" --> <a href="#" class="portfolio-post text-light waves-effect waves-light">
+            <span>Austin Transit App (Coming Soon!)</span>
+            <img src="img/portfolio/single/th03.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <a href="#" class="portfolio-post text-light waves-effect waves-light">
+            <span>Samsung 360 Gear Video Immersion (Coming Soon!)</span>
+            <img src="img/portfolio/single/th04.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <a href="#" class="portfolio-post text-light waves-effect waves-light">
+            <span>Hut's Hamburger Website Redesign (Coming Soon!)</span>
+            <img src="img/portfolio/single/th04.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <a href="#" class="portfolio-post text-light waves-effect waves-light">
+            <span>Brew n' Brew Virtual Reality Experience (Coming Soon!)</span>
+            <img src="img/portfolio/single/th04.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <a href="#" class="portfolio-post text-light waves-effect waves-light">
+            <span>Making of an Animation Reel (Coming Soon!)</span>
+            <img src="img/portfolio/single/th04.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+        </div><!-- .scroll-area -->
+      </aside><!-- .sidebar -->
+
+      <!-- Portfolio Post -->
+      <div class="portfolio-post-wrap">
+
+        <!-- Post Sharing -->
+        <!-- cut out for now <ul class="post-sharing-bar">
+          <li class="sharing-toggle"><a href="#"><i class="fa fa-share-alt"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fa fa-tumblr"></i></a></li> -->
+         <!-- cut out for now  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul><!-- .post-sharing-bar -->
+
+        <div class="single-portfolio">
+          <div class="fw-setcion padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/single/prod01.jpg);" data-stellar-background-ratio="0.65">
+            <div class="single-post-container padding-top-3x padding-bottom-3x">
+              <h1 class="text-light text-huge text-extrathin padding-top-2x">Meet Photo Ready</h1>
+              <div class="portfolio-meta padding-bottom-2x">
+                <span>A Platform for Photographers &amp Models to Collaborate</span>
+                <span></span>
+
+              </div>
+            </div>
+          </div><!-- .fw-setcion -->
+          <div class="single-post-container padding-top-3x padding-bottom-3x">
+            <div class="row padding-top padding-bottom">
+              <div class="col-lg-13 padding-bottom-2x">
+                <h3>Imagine an app that connnects you to models and photographers with portfolio sites linked, references listed, calendar syncing features, and private messaging capabilities.</h3>
+                <h2>That dream is now a reality with Photo Ready.</h2>
+                <p class="text-gray">In a world where creative work can take shape in many forms, from a full time job, to side gigs, or for just making art for the fun of it, inconveniences like communication barriers should not be a hindrance. Freelance work is tough, especially for those who are just breaking into the industry. Additionally, building portfolios can be incredibly difficult if clients want to see your previous work. For photographers and models, this usually means an extended period of doing work for free, which is extremely difficult and can often prevent people from ever allowing their creative work to evolve into anything more than a personal hobby.</p>
+                <!-- coffee with a friend art direction -->
+                <img src="img/drinkingcoffeefinal.svg" alt="Two Girls Drinking Coffee">
+
+                <p>It occurred to me that Photo Ready was a platform needing to be created while I was grabbing coffee with a friend. She was explaining to me her current frustrations with her attempt to begin a freelance photography side gig in the city of Austin. It was difficult for her to find clients- let alone the type of artistic shoots she was interested in doing! Even more, she was currently using platforms like Bumble Friends and Tinder to message contacts, explain to them that she was a photographer looking to expand her portfolio, and then ask if they were interested in doing a shoot for a discounted rate. She said this issue goes both ways, and that models often have a hard time finding photographers in their budget that provide professional quality work. Currently, aside from random messaging on Bumble, she has joined meet up groups on Facebook and around the city to get involved, but opportunities have been slim and the groups were oversaturated with widely varying talent. She reflected that, ironically, “cold messaging” on Bumble Friends had been resulting in better success than any of the latter options. After listening to her frustrations, I decided there was a market for photographers and models who were wanting a platform to meet and discuss bookings, and that there were no current platforms that did this well. I applied a little UX design thinking to see what I could come up with.
+                </p>
+                <!-- story board-->
+                <h4>To guide the structure of my designing, I used the approach that design and innovation company IDEO uses for their human-centered design thinking process.</h4>
+                <!-- Design process flow chart-->
+                <img src="img/portfolio/designprocess1.0.svg" alt="Photo Ready Design Process">
+                <p>Before designing the product, I talked to potential users of my app as well as performed market research to see what the leading competitors were doing. I had about fifteen different questions to ask either models or photographers, all of which asked questions centered around how the users were currently solving their problem. I attended an Austin Photography meet up for creatives and models and interviewed anyone who would spend 15 minutes with me. My script went along the lines of this:</p>
+                <br>
+                <p class="text-gray">"Thank you for meeting with me! I am looking at making a platform for photographers and models to view each others’ portfolios and provide communication for booking photoshoots together. I am here to ask you a handful of questions to get a better understanding of what freelancers in the field of photography and modeling are in need of and where their current frustrations lie in the field of freelancing. Our interview should only take about fifteen minutes, and all of the information you provide me will be kept completely private and only used to help me design better solutions for the platform."</p>
+
+                <h3>Survey Questions:</h3>
+                <h4>For Photographers</h4>
+
+                  <ol style="list-style-type:circle">
+                    <li>Walk me through your process of letting clients know that you are a photographer and are looking to take clients.</li>
+                    <li>What are your current frustrations as a photographer?</li>
+                    <li>What are your current frustrations as a freelance worker?</li>
+                    <li>Tell me about the most recent time you contacted a client or model for a booking.</li>
+                    <li>Can you rank the difficultly level of the process of contacting a client, finding a mutual time for a shoot, payment, and handing over the product?</li>
+                    <li>After the initial contact with a client, what have been some reasons that you decided to no longer work with them?</li>
+                    <li>Are you currently keeping a log of your client bookings and appointments? If so, how do you record appointments?</li>
+                    <li>After you have contacted a model, do you meet up once before the shoot? Or do you immediately set up a booking?</li>
+                    <li>As someone who has a full time job, what is the most difficult part about setting up bookings?</li>
+                    <li>How do you and your client settle on payment? Is payment typically done electronically, through check, or cash?</li>
+                    <li>What is your preferred way to chat and discuss rates with clients?</li>
+                    <li>What is the most recent problem you have run into when approaching a client for photography?</li>
+                    <li>When you were beginning your freelancing career, what was your approach in building your portfolio?</li>
+                    <li>When contacting a model, what accreditation do you ask for before agreeing to schedule a photoshoot?</li>
+                    <li>When contacting a model, what accreditation do they ask you for before agreeing to schedule a photoshoot?</li>
+
+                  </ol>
+                <p>I asked very similar questions to models, only with slight variations in wording that made questions more applicable to their work experiences. Once the interviews were completed, I was able to prioritize features and gain a better understanding of what those in the field felt like the market was missing. It was a common response for users to say that references were asked for before working together, which surprised me. Additionally, a calendar syncing feature that reads both participants' calendar availability and matches free times was a feature users really described as being needed. It stood out to me that the initial meeting of models to photographers wasn’t the hardest part, but rather it was more difficult translating that interaction over into appointments and bookings. Safely chatting through a protected platform first before sharing contact info and an option for the model to provide his or her dimensions also seemed to be a highlighted need by users.<p>
+                <p>Having understood what was most needed by my target audience, I began to build a few personas to keep in mind who exactly I was designing for. I considered many of the people who I had interviewed during my initial research period and built them into three representative personas, two of which were models, and the other was a photographer. By persona building, I was able to keep in mind my target audience throughout my entire design process and prioritize features due to user feedback.<p>
+
+      <!-- Personas-->
+        <img src="img/per1.png" alt="persona 1">
+        <div class="testimonial">
+          <div class="inner">
+            <img src="img/per2.png" alt="persona 2">
+            <div class="testimonial">
+              <div class="inner">
+           <img src="img/per3.png" alt="persona 3">
+            <div class="testimonial">
+              <div class="inner">
+          </div>
+        </div>
+      </div><!-- .personas-list -->
+    </section><!-- .container -->
+
+
+                <p>With the personas in place, it was time to begin performing market research to see what the leading competitors were currently offering. Since there was no platform that did exactly what Photo Ready was trying to do, I evaluated competing apps that offered any service relatable to what Photo Ready could offer. Its platform would include a "discovering people" feature,  so I decided to evaluate companies that offered any source of people interacting capabilities, from the commonly known brands like Tinder, Facebook, Bumble, Twitter, etc, to meet up groups found online. Additionally I looked at calendar apps and messaging platforms to observe the best interface for accomplishing user needs in a clear and concise way.<p>
+
+                <img src="img/portfolio/competitoranalysis.svg" alt="competitoranalysis">
+
+                <!-- <p>With the market research was completed, interface of Photo Ready planning began, and what features were most vital to it's design were highlighted. Taking into account all the insight gathered from user interviews and what the competitors are offering from the market research, I created an affinity map to prioritize features.</p> -->
+
+                <!-- INSERT AFFINITY MAP -->
+
+                <!-- <p>With the features pinpointed that benefitted both the user and the Photo Ready app, the app interface brainstorming phase began. To help with interface flow, a few user journeys were created to demonstrate how one would use the app and the steps they would take to accomplish different tasks within the app, all with the intention to ensure that Photo Ready had the correct navigation clarity and ability to complete user needs.<p> -->
+
+                <p>Planning the layout of the app interface requires a lot of mapping out user flows with the use of information architecture methods. Starting from the top, I drew a hierarchical structure of how Photo Ready's information should be presented, including how to navigate between the different screens and what buttons should be local or global.<p>
+
+                <!-- insert information architecture -->
+                <img src="img/infoarch.svg" alt="information architecture">
+
+                <p>With the interface skeleton set up, it was time to begin sketching low fidelity mockups of what the app interface would look like. I decided against an icon navigation bar across the bottom of the screen because I wanted to maximize my screen space and use more local navigation. Within each screen face, the actions a user would need to take were very dependent upon the screen they were on, so local navigation would play a much higher importance than the use of global navigation. One button for global navigation was created that caused a side tool bar to pop up that would provide access to the different screens, and the app then relied on heavy ux research and usability testing to get the local navigation down perfectly, so that any action needed to be done by the user would be clearly labeled on the screen.<p>
+
+                <img src="img/Med Fi Proto with edits.png" alt="med-fi prototypes with edits">
+
+                <p>When transitioning into medium fidelity designing, the layout was condensed on the profile screens and unneeded features like followers were cut out, as well as simplifying the button options on the chat screen. The designs were then brought to life by making high fidelity mockups in Sketch. The app mockup was then imported into Invision and made into a clickable prototype. With the app up and running, usability tests were performed on Photo Ready with different people who had never seen the interface before. Some people were asked to click through the app while I silently observed, seeing what pain points they had, if there were any unclear buttons, or anything else that was confusing or unpleasant to their experience. Others were asked to perform a specific task, including actions like:<p>
+
+                <!-- medium fidelity -->
+
+                <ol style="list-style-type:circle">
+                  <li>Create an account and message a photographer</li>
+                  <li>Login and create an event</li>
+                  <li>Change your profile picture</li>
+                  <li>Look at the most recent model you have an appointment with and view her references</li>
+                  <li>Upload your portfolio link</li>
+                </ol>
+
+                <img src="img/High Fi Proto.png" alt="high-fi prototypes">
+
+
+                <p class="text-gray"><p>
+
+                <!-- all the interview questions -->
+              </div>
+              <!-- <div class="col-lg-6">
+                <img src="img/portfolio/03.jpg" class="block-center" alt="National">
+              </div> -->
+            </div><!-- .row -->
+          </div><!-- .single-post-container -->
+        </div><!-- .single-portfolio -->
+      </div><!-- .portfolio-post-wrap -->
+    </div><!-- .portfolio-page -->
+
+    <!-- Scroll To Top Button -->
+    <a href="#" class="scroll-to-top-btn">
+      <i class="material-icons keyboard_arrow_up"></i>
+    </a><!-- .scroll-to-top-btn -->
+
+    <!-- Footer -->
+    <footer class="footer footer-alt">
+
+      <!-- Main footer -->
+      <div class="footer-main mobile-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="widget widget_links">
+                <h3 class="widget-title">Software Used:</h3>
+                <ul>
+                  <li>Sketch &amp Invision</li>
+                  <li>HTML 5 &amp CSS</li>
+                  <li>Adobe After Effects</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe Premiere Pro</li>
+                </ul>
+              </div><!-- .widget.widget_links -->
+            </div><!-- .col-sm-4 -->
+          </div>
+        </div>
+      </div>
+        <!-- <div class="col-sm-8">
+              <div class="widget widget_instagram space-bottom-none">
+                <h3 class="widget-title">Follow My UX Strategy</h3>
+                <div class="insta-row">
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/01.jpg" alt="Vimeo"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/02.jpg" alt="Vimeo"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/03.jpg" alt="Vimeo"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/04.jpg" alt="Vimeo"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/05.jpg" alt="Vimeo"></a>
+                  </div>
+                </div>
+              </div><!-- .widget.widget_instagram -->
+            </div><!-- .col-sm-8 -->
+          </div><!-- .row -->
+        </div><!-- .container -->
+      </div><!-- .footer-main -->
+
+      <!-- Copyright -->
+      <!-- <div class="copyright">
+        <div class="container">
+          <div class="inner">
+            <div class="column">
+              <p> Designed + Developed with <i class="fa fa-heart"></i> by Anna E. Cherian </p>
+            </div>
+          </div>
+        </div>
+      </div>  -->
+         <div class="column text-right mobile-center">
+              <div class="social-bar">
+                <a href="#" class="sb-twitter" data-toggle="tooltip" data-placement="top" title="Twitter" onclick="window.open('https://twitter.com/CherianAnna')">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="sb-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn" onclick="window.open('https://www.linkedin.com/in/anna-cherian-a7b906111/')">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="#" class="sb-vimeo" data-toggle="tooltip" data-placement="top" title="Vimeo" onclick="window.open('https://vimeo.com/user70487178')">
+                  <i class="fa fa-vimeo"></i>
+                </a>
+                  <a href="#" class="sb-medium" data-toggle="tooltip" data-placement="top" title="Medium" onclick="window.open('https://medium.com/@annacherian')">
+                  <i class="fa fa-medium"></i>
+                </a>
+                <a href="#" class="sb-github" data-toggle="tooltip" data-placement="top" title="Github" onclick="window.open('https://github.com/annacheri/Portfolio')">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="#" class="sb-behance" data-toggle="tooltip" data-placement="top" title="Behance" onclick="window.open('https://www.behance.net/annacheriad03a')">
+                  <i class="fa fa-behance"></i>
+                </a>
+                <!-- Account not ready for launch -->
+                <a href="#" class="sb-steam" data-toggle="tooltip" data-placement="top" title="Steam"
+                  <i class="fa fa-steam"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><!-- .container -->
+      </div><!-- .copyright -->
+    </footer><!-- .footer -->
+
+  </div><!-- .page-wrapper -->
+
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts -->
+  <script src="js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="js/vendor/jquery.easing.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/waves.min.js"></script>
+  <script src="js/vendor/smoothscroll.js"></script>
+  <script src="js/vendor/jquery.stellar.min.js"></script>
+  <script src="js/vendor/waypoints.min.js"></script>
+  <script src="js/vendor/velocity.min.js"></script>
+  <script src="js/vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body><!-- <body> -->
+
+</html>

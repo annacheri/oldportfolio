@@ -24,6 +24,16 @@
   margin-right: 1em;
 }
 
+.music {
+  color: #4c4c4c;
+  border-bottom: 5px solid #F2C5AA;
+  text-decoration: none;
+}
+
+.music:hover {
+  color: #F2C5AA;
+}
+
 .photoright {
   width: 45%;
   height: auto;
@@ -38,7 +48,7 @@
 
 @font-face {
   font-family: "Chameleon Outline2";
-  src: url("/fonts/Chameleon Outline2.ttf") format("ttf");
+  src: url("../fonts/Chameleon Outline2.ttf") format("ttf");
 }
 
 @media (max-width: 375px) {
