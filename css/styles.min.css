@@ -57,6 +57,21 @@
   src: url("../fonts/ChameleonOutline2-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Chameleon Basic";
+  src: url("../fonts/ChameleonBasic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+}
+
 @media (max-width: 375px) {
   .photoright {
     display: none;
@@ -3792,13 +3807,13 @@ transform:scale(1);
   letter-spacing:.1em;
   margin-bottom:18px;
   text-align: center;
-  font-family: "Chameleon Outline2", serif;
+  font-family: "Chameleon Basic", serif;
   font-style: italic;
   font-weight: 700;
 }
 
 .about {
-  font-family: "Chameleon Outline2", "Open Sans";
+  font-family: "Chameleon Basic", "Open Sans";
   color:#9d0035;
   font-size: 50px;
 }

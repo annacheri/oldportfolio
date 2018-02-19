@@ -13,6 +13,21 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "Chameleon Outline2";
+  src: url("../fonts/ChameleonOutline2-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+}
+
 a {
 	text-decoration: none;
 	color: #ff3d53;
