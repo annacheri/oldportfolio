@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107058285-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107058285-1');
+</script>
+
+<script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '865N2';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+    d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+    ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+
+  <meta charset="utf-8">
+  <title>Anna E. Cherian Portfolio | Product Designer </title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="Art + Design Portfolio of Anna E. Cherian" />
+  <meta name="keywords" content="material design, portfolio, technology, business, corporate, hosting, web, startup, app showcase, mobile, blog, anding, shortcodes, html5, css3, jquery, js, gallery, slider, touch, creative" />
+  <meta name="author" content="8Guild" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="annaicon.ico" type="image/x-icon">
+  <link rel="icon" href="annaicon.ico" type="image/x-icon">
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.scss-->
+  <link href="css/styles.min.css" rel="stylesheet" media="screen">
+
+  <!-- Page Preloading -->
+  <script src="js/vendor/page-preloading.js"></script>
+
+  <!--Modernizr / Detectizr-->
+  <script src="js/vendor/modernizr.custom.js"></script>
+  <script src="js/vendor/detectizr.min.js"></script>
+
+  <script src="https://use.fontawesome.com/947f275de0.js"></script>
+</head>
+
+<!-- Body -->
+<!-- Adding/Removing class ".parallax" is enabling/disabling background parallax effect on elements with background images and attributes data-stellar-background-ratio applied to them. Make sure you also added/removed link to stellar.js script before </body>. -->
+<!-- Adding/Removing class ".page-preloading" is enabling/disabling background smooth page transition effect and spinner. Make sure you also added/removed link to page-preloading.js script before </body> and ".page-preloader" right after <body> tag. -->
+<body class="parallax page-preloading">
+
+  <!-- Page Pre-Loader -->
+  <div class="page-preloader">
+    <div class="spinner-wrap">
+      <div class="mdl-spinner mdl-js-spinner is-active"></div>
+    </div>
+  </div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Floating Header -->
+    <header class="floating-header">
+
+    <!-- Navbar -->
+    <!-- Add class ".header-sticky" to make navbar stuck when it hits the top of the page. Another modifier class is: ".header-fullwidth" to stretch navbar and make it occupy 100% of the page width. The screen width at which header collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
+    <header class="site-header header-fullwidth header-sticky">
+      <div class="navbar">
+        <div class="inner">
+
+          <!-- Site Logo -->
+          <a href="#" class="site-logo">
+            <img src="img/logo.png" alt="Anna E. Cherian Portfolio">
+          </a>
+
+          <!-- Main Navigation -->
+          <nav class="main-navigation">
+            <!-- Alignment classes: pull-right, pull-left. -->
+            <div class="toolbox pull-right">
+              <div class="inner">
+                <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('img/Anna Resume.pdf')">Download My Resume
+               </a>
+              </div>
+            </div><!-- .toolbox -->
+            <!-- Alignment classes: pull-right, pull-center. No class will align menu on the left. -->
+            <ul class="menu pull-right">
+              <li class="menu-item-has-children">
+                <ul class="sub-menu">
+                  <!-- <li><a href="portfolioproject1.html">Project 1</a></li>
+                  <li><a href="portfolioproject2.html">Project 2</a></li>
+                  <li><a href="portfolioproject3.html">Project 3</a></li> -->
+                </ul>
+              </li>
+              <li><a href="index.html">Home</a></li>
+              <li  class="current-menu-item"><a href="PhotoReady.html">Work</a><li>
+              <!-- <li><a href="BlogPage.html">Blog</a></li> -->
+              <li><a href="AboutMePage.html">About Me</a></li>
+              <li><a href="ContactPage.html">Contact</a></li>
+              <!-- <li><a href="elements.html">Elements</a></li> -->
+            </ul><!-- .menu -->
+          </nav><!-- .main-navigation -->
+
+          <!-- Mobile Menu Toggle -->
+          <!-- Visible only when viewport is 991px and less. Can be changed via $nav-collapse variables in _variables.scss -->
+          <div class="mobile-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div><!-- .mobile-menu-toggle -->
+        </div><!-- .inner -->
+      </div><!-- .navbar -->
+    </header><!-- .site-header -->
+
+    <!-- Fullscreen Slideshow -->
+    <section class="fullscreen-slideshow">
+      <ul class="bg-image">
+        <li id="img01" class="current" style="background-image: url(img/portfolio/samsung/slideshow/01.jpg);" data-stellar-background-ratio="0.65">
+          <span class="text-layer text-light text-huge text-extrathin scale-down">Samsung Gear 360 Video</span>
+        </li>
+        <li id="img02" style="background-image: url(img/portfolio/samsung/slideshow/02.jpg);" data-stellar-background-ratio="0.65">
+          <span class="text-layer text-light text-huge text-extrathin scale-up">Building &amp; Architecture</span>
+        </li>
+        <li id="img03" style="background-image: url(img/portfolio/samsung/slideshow/03.jpg);" data-stellar-background-ratio="0.65">
+          <span class="text-layer text-huge text-extrathin from-bottom">Immersive Media</span>
+        </li>
+      </ul><!-- .bg-image -->
+      <div class="thumbnails-list">
+        <div class="inner">
+          <ul>
+            <li class="text-light active">
+              <a href="#img01" class="waves-effect waves-light">
+                <span>Samsung Gear 360</span>
+                <img src="img/portfolio/samsung/slideshow/thumbnails/th01.jpg" alt="Thumbnail"/>
+              </a>
+            </li>
+            <li class="text-light">
+              <a href="#img02" class="waves-effect waves-light">
+                <span>Building &amp; Architecture</span>
+                <img src="img/portfolio/samsung/slideshow/thumbnails/th02.jpg" alt="Thumbnail"/>
+              </a>
+            </li>
+            <li>
+              <a href="#img03" class="waves-effect waves-light">
+                <span>Immersive Media</span>
+                <img src="img/portfolio/samsung/slideshow/thumbnails/th03.jpg" alt="Thumbnail"/>
+              </a>
+            </li>
+          </ul>
+        </div><!-- .inner -->
+      </div><!-- .thumbnails-list -->
+    </section><!-- .fullscreen-slideshow -->
+
+    <!-- Portfolio Grid -->
+    <section class="container padding-top-3x">
+
+      <!-- Filters -->
+      <ul class="nav-filters space-top space-bottom-2x">
+        <li class="active"><a href="#" data-filter="*">Show All</a></li>
+        <li><a href="#" data-filter=".personal">Interior</a></li>
+        <li><a href="#" data-filter=".advert">Exterior</a></li>
+      </ul><!-- .nav-filters -->
+
+      <!-- Masonry Grid -->
+      <div class="grid isotope-masonry-grid filter-grid">
+        <div class="gutter-sizer"></div>
+        <div class="grid-sizer"></div>
+        <div class="grid-item double-w double-h advert">
+           <a href="#" class="portfolio-tile text-light" style="background-image: url(img/portfolio/samsung/04.jpg);"></a>
+        </div>
+        <div class="grid-item double-w personal">
+          <a href="#" class="portfolio-tile text-light" style="background-image: url(img/portfolio/samsung/05.jpg);"></a>
+        </div>
+        <div class="grid-item double-w personal">
+          <a href="#" class="portfolio-tile" style="background-image: url(img/portfolio/samsung/06.jpg);"></a>
+        </div>
+        <div class="grid-item double-h advert">
+          <a href="#" class="portfolio-tile" style="background-image: url(img/portfolio/samsung/07.jpg);"></a>
+        </div>
+        <div class="grid-item double-h advert">
+          <a href="#" class="portfolio-tile text-light" style="background-image: url(img/portfolio/samsung/08.jpg);"></a>
+        </div>
+        <div class="grid-item double-w double-h personal">
+          <a href="#" class="portfolio-tile" style="background-image: url(img/portfolio/samsung/09.jpg);"></a>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-gray-alt waves-effect btn-icon-right">
+           View All
+          <i class="material-icons refresh"></i>
+        </a>
+      </div>
+    </section><!-- .container -->
+
+
+    <!-- About Author -->
+    <section class="fw-section bg-no-cover padding-top-3x padding-bottom-3x" style="background-color: #f3f3f3; background-image: url(img/portfolio/samsung/about-bg.jpg);">
+      <div class="container">
+        <!-- block-title: Possible color classes ".block-title-default, .block-title-primary, .block-title-secondary, .block-title-success, .block-title-info, .block-title-warning, .block-title-danger, .block-title-light". -->
+        <h2 class="block-title space-top">
+          <i class="material-icons camera"></i>
+          About the Space
+        </h2><!-- .block-title -->
+        <div class="row">
+          <div class="col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4">
+            <h2 class="text-thin">New Central Library</h2>
+            <p class="text-sm text-gray" style="margin-top: -16px;">Located in Austin, Texas</p>
+            <p class="text-gray">The Austin Public Library provides knowledge, technology and inspiration to the Austin community. The Library is a hub of books and education, a meeting place of minds and an incubator of ideas.</p>
+            <ul class="list-featured text-sm">
+              <li>Featured in Master Mind Publication</li>
+              <li>Adobe Achievement Award 2009</li>
+              <li>Proficiency in Photoshop and Sketch</li>
+              <li>Speaks fluently: English and German</li>
+            </ul>
+            <p class="text-sm text-gray">Follow New Central Library Here:</p>
+            <div class="social-bar-rects">
+              <a href="#" class="sb-twitter waves-effect waves-light waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Twitter" onclick="window.open('https://twitter.com/AustinPublicLib')">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#" class="sb-facebook waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Facebook" onclick="window.open('https://www.facebook.com/AustinLibrary')">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="#" class="sb-instagram waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Instagram">
+                <i class="fa fa-instagram" onclick="window.open('https://www.instagram.com/austinpubliclibrary/')"></i>
+              </a>
+              <a href="#" class="sb-youtube waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="YouTube" onclick="window.open('https://www.youtube.com/user/aplacmc')">
+          <i class="fa fa-youtube"></i>
+        </a>
+            </div>
+          </div>
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </section><!-- .fw-section.bg-no-cover -->
+
+    <!-- Featured Project -->
+    <section class="container space-top padding-top-3x padding-bottom-3x">
+      <!-- block-title: Possible color classes ".block-title-default, .block-title-primary, .block-title-secondary, .block-title-success, .block-title-info, .block-title-warning, .block-title-danger, .block-title-light". -->
+      <h2 class="block-title">
+        <i class="material-icons photo_camera"></i>
+        Samsung Gear 360 Immersive Media Project
+      </h2><!-- .block-title -->
+      <div class="row">
+        <div class="col-lg-4 col-md-5 padding-bottom-2x">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur explicabo, voluptates.</p>
+          <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla unde eos doloribus minima voluptate eum esse impedit. Suscipit, impedit eveniet saepe fuga animi quasi. Quibusdam, laborum autem temporibus.</p>
+          <!-- <a href="portfolio.html" class="btn btn-ghost btn-default waves-effect waves-light">See Full Project</a> -->
+        </div>
+        <!-- <div class="col-lg-8 col-md-7 padding-bottom"> 
+          <!-- Data API:
+            data-loop="true/false" enable/disable looping
+            data-autoplay="true/false" enable/disable carousel autoplay
+            data-interval="3000" autoplay interval timeout in miliseconds
+            data-autoheight="true/false" to enable/disable autoheight
+            Simply add necessary data attribute to the ".image-carousel" with appropriate value to adjust carousel functionality.
+           -->
+          <div class="image-carousel">
+            <div class="inner">
+              <img src="img/portfolio/samsung/project-carousel/01.jpg" alt="Image">
+              <img src="img/portfolio/samsung/project-carousel/02.jpg" alt="Image">
+              <img src="img/portfolio/samsung/project-carousel/03.jpg" alt="Image">
+            </div>
+          </div><!-- .image-carousel -->
+        <!-- </div>
+      </div><!-- .row -->
+    </section><!-- .container -->
+
+    <!-- Quotation -->
+    <!-- CUT <section class="fw-section padding-top-3x padding-bottom-3x" style="background-color: #f24a62;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 scrollReveal sr-left">
+            <blockquote class="mobile-center">
+              <p>What immersive media means and other text here.</p>
+            </blockquote>
+          </div>
+          <div class="col-sm-5 padding-top scrollReveal sr-scaleUp sr-delay-1 sr-ease-in-out-back">
+            <div class="padding-top-2x hidden-xs"></div>
+            <img src="img/home/verge.png" alt="The Verge" class="block-center">
+          </div>
+        </div><!-- .row -->
+      <!-- CUT </div><!-- .container -->
+    <!-- CUT </section><!-- .fw-section.bg-no-cover -->
+
+    <!-- Blog -->
+    <section class="container padding-top-3x padding-bottom-3x">
+      <!-- block-title: Possible color classes ".block-title-default, .block-title-primary, .block-title-secondary, .block-title-success, .block-title-info, .block-title-warning, .block-title-danger, .block-title-light". -->
+      <!-- CUT <h2 class="block-title space-top">
+        <i class="material-icons create"></i>
+        My Blog
+      </h2><!-- .block-title -->
+      <!-- CUT <div class="grid isotope-grid col-3">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+        <div class="grid-item">
+          <div class="blog-tile">
+            <a href="blog.html" class="featured-img waves-effect waves-light">
+              <img src="img/blog/01.jpg" alt="Image">
+            </a>
+            <div class="blog-tile-body">
+              <div class="blog-meta">
+                <a href="#">12 May 2016</a>
+                <span>/</span>
+                <a href="#">Travel</a>
+              </div>
+              <h3 class="blog-tile-title"><a href="blog.html">Kindness And Motivation Tips Challenge Groups To Make</a></h3>
+              <p>I am back, after a few days of vacationing with family.</p>
+            </div>
+            <div class="blog-tile-footer">
+              <div class="blog-meta">
+                <a href="#"><i class="material-icons question_answer"></i>12</a>
+                <a href="#"><i class="material-icons favorite"></i>3</a>
+                <span><i class="material-icons schedule"></i>5 min</span>
+              </div>
+            </div>
+            <span class="post-format">
+              <i class="material-icons create"></i>
+            </span>
+          </div><!-- .blog-tile -->
+        <!-- CUT </div><!-- .grid-item -->
+        <!-- CUT <div class="grid-item">
+          <div class="blog-tile">
+            <div class="blog-tile-body">
+              <div class="blog-meta">
+                <a href="#">17 Oct 2016</a>
+                <span>/</span>
+                <a href="#">Motivation</a>
+              </div>
+              <h3 class="blog-tile-title"><a href="blog.html">A Great Way To Generate All The Motivation You Need</a></h3>
+              <p>Ever heard of the Fuller Brush Man? You know, those legendary guys.</p>
+            </div>
+            <div class="blog-tile-footer">
+              <div class="blog-meta">
+                <a href="#"><i class="material-icons question_answer"></i>8</a>
+                <a href="#"><i class="material-icons favorite"></i>45</a>
+                <span><i class="material-icons schedule"></i>10 min</span>
+              </div>
+            </div>
+            <span class="post-format">
+              <i class="material-icons audiotrack"></i>
+            </span>
+          </div><!-- .blog-tile -->
+        </div><!-- .grid-item -->
+        <!-- CUT <div class="grid-item">
+          <div class="blog-tile">
+            <a href="blog.html" class="featured-img waves-effect waves-light">
+              <img src="img/blog/03.jpg" alt="Image">
+            </a>
+            <div class="blog-tile-body">
+              <div class="blog-meta">
+                <a href="#">15 July 2016</a>
+                <span>/</span>
+                <a href="#">Construction</a>
+              </div>
+              <h3 class="blog-tile-title"><a href="blog.html">Why Re Invent The Light Bulb</a></h3>
+            </div>
+            <div class="blog-tile-footer">
+              <div class="blog-meta">
+                <a href="#"><i class="material-icons question_answer"></i>9</a>
+                <a href="#"><i class="material-icons favorite"></i>17</a>
+                <span><i class="material-icons schedule"></i>8 min</span>
+              </div>
+            </div>
+            <span class="post-format">
+              <i class="material-icons play_arrow"></i>
+            </span>
+          </div><!-- .blog-tile -->
+        </div><!-- .grid-item -->
+        <!-- CUT <div class="grid-item">
+          <div class="blog-tile">
+            <a href="blog.html" class="featured-img waves-effect waves-light">
+              <img src="img/blog/02.jpg" alt="Image">
+            </a>
+            <div class="blog-tile-body">
+              <div class="blog-meta">
+                <a href="#">16 April 2016</a>
+                <span>/</span>
+                <a href="#">Coffee</a>
+              </div>
+              <h3 class="blog-tile-title"><a href="blog.html">Use Your Reset Button</a></h3>
+            </div>
+            <div class="blog-tile-footer">
+              <div class="blog-meta">
+                <a href="#"><i class="material-icons question_answer"></i>6</a>
+                <a href="#"><i class="material-icons favorite"></i>10</a>
+                <span><i class="material-icons schedule"></i>13 min</span>
+              </div>
+            </div>
+            <span class="post-format">
+              <i class="material-icons camera_alt"></i>
+            </span>
+          </div><!-- .blog-tile -->
+        </div><!-- .grid-item -->
+        <!-- CUT <div class="grid-item">
+          <div class="blog-tile">
+            <div class="blog-tile-body">
+              <div class="blog-meta">
+                <a href="#">22 Sept 2016</a>
+                <span>/</span>
+                <a href="#">Spiritual</a>
+              </div>
+              <h3 class="blog-tile-title"><a href="blog.html">Make It Your Destiny To Accomplish Great Things In Your Life</a></h3>
+            </div>
+            <div class="blog-tile-footer">
+              <div class="blog-meta">
+                <a href="#"><i class="material-icons question_answer"></i>2</a>
+                <a href="#"><i class="material-icons favorite"></i>7</a>
+                <span><i class="material-icons schedule"></i>10 min</span>
+              </div>
+            </div>
+            <span class="post-format">
+              <i class="material-icons format_quote"></i>
+            </span>
+          </div><!-- .blog-tile -->
+        </div><!-- .grid-item -->
+        <!-- CUT <div class="grid-item">
+          <div class="blog-tile">
+            <div class="blog-tile-body">
+              <div class="blog-meta">
+                <a href="#">30 Nov 2016</a>
+                <span>/</span>
+                <a href="#">Space</a>
+              </div>
+              <h3 class="blog-tile-title"><a href="blog.html">Astronomy Binoculars A Great Alternative</a></h3>
+            </div>
+            <div class="blog-tile-footer">
+              <div class="blog-meta">
+                <a href="#"><i class="material-icons question_answer"></i>33</a>
+                <a href="#"><i class="material-icons favorite"></i>19</a>
+                <span><i class="material-icons schedule"></i>15 min</span>
+              </div>
+            </div>
+            <span class="post-format">
+              <i class="material-icons attach_file"></i>
+            </span>
+          </div><!-- .blog-tile -->
+        </div><!-- .grid-item -->
+      </div><!-- .grid.isotope-grid.col-3 -->
+    </section><!-- .container -->
+
+    <!-- Scroll To Top Button -->
+    <a href="#" class="scroll-to-top-btn">
+      <i class="material-icons keyboard_arrow_up"></i>
+    </a><!-- .scroll-to-top-btn -->
+
+    <!-- Footer -->
+    <footer class="footer footer-alt">
+
+      <!-- Main footer -->
+      <div class="footer-main mobile-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="widget widget_links">
+                <h3 class="widget-title">Software Used</h3>
+                <ul>
+                  <li><a href="#">Samsung Gear VR</a></li>
+                  <li><a href="#">Samsung Gear 360</a></li>
+                  <li><a href="#">Oculus Rift</a></li>
+                  <li><a href="#">Adobe Photoshop</a></li>
+                  <li><a href="#">Adobe Premiere Pro</a></li>
+                </ul>
+              </div><!-- .widget.widget_links -->
+            </div><!-- .col-sm-4 -->
+            <div class="col-sm-8">
+              <div class="widget widget_instagram space-bottom-none">
+                <!-- <h3 class="widget-title">Follow My Instagram</h3>
+                <div class="insta-row">
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/01.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/02.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/03.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/04.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/05.jpg" alt="Instagram"></a>
+                  </div>
+                </div>
+              </div><!-- .widget.widget_instagram -->
+            </div><!-- .col-sm-8 -->
+          </div><!-- .row -->
+        </div><!-- .container -->
+      </div><!-- .footer-main -->
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="inner">
+            <div class="column">
+              <p>Designed + Developed with <i class="fa fa-heart"></i> by Anna E. Cherian </p>
+            </div>
+            <div class="column text-right mobile-center">
+              <div class="social-bar">
+                <a href="#" class="sb-twitter" data-toggle="tooltip" data-placement="top" title="Twitter" onclick="window.open('https://twitter.com/CherianAnna')">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="sb-instagram" data-toggle="tooltip" data-placement="top" title="Instagram" onclick="window.open('https://www.instagram.com/annacherian_/')">
+                  <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#" class="sb-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn" onclick="window.open('https://www.linkedin.com/in/anna-cherian-a7b906111/')">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="#" class="sb-vimeo" data-toggle="tooltip" data-placement="top" title="Vimeo" onclick="window.open('https://vimeo.com/user70487178')">
+                  <i class="fa fa-vimeo"></i>
+                </a>
+                  <a href="#" class="sb-medium" data-toggle="tooltip" data-placement="top" title="Medium" onclick="window.open('https://medium.com/@annacherian')">
+                  <i class="fa fa-medium"></i>
+                </a>
+                <a href="#" class="sb-github" data-toggle="tooltip" data-placement="top" title="Github" onclick="window.open('https://github.com/annacheri/-Design-Portfolio-')">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="#" class="sb-behance" data-toggle="tooltip" data-placement="top" title="Behance" onclick="window.open('https://www.behance.net/annacheriad03a')">
+                  <i class="fa fa-behance"></i>
+                </a>
+                <!-- Account not ready for launch -->
+                <a href="#" class="sb-steam" data-toggle="tooltip" data-placement="top" title="Steam"
+                  <i class="fa fa-steam"></i>
+
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><!-- .container -->
+      </div><!-- .copyright -->
+    </footer><!-- .footer -->
+
+  </div><!-- .page-wrapper -->
+
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts -->
+  <script src="js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="js/vendor/jquery.easing.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/waves.min.js"></script>
+  <script src="js/vendor/smoothscroll.js"></script>
+  <script src="js/vendor/isotope.pkgd.min.js"></script>
+  <script src="js/vendor/jquery.stellar.min.js"></script>
+  <script src="js/vendor/waypoints.min.js"></script>
+  <script src="js/vendor/velocity.min.js"></script>
+  <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="js/vendor/scrollreveal.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body><!-- <body> -->
+
+</html>

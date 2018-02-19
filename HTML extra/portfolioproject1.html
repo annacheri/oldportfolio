@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107058285-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107058285-1');
+</script>
+
+  <meta charset="utf-8">
+  <title>Anna E. Cherian Portfolio | Multimedia Artist + Designer </title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="Art + Design Portfolio of Anna E. Cherian" />
+  <meta name="keywords" content="material design, portfolio, technology, business, corporate, hosting, web, startup, app showcase, mobile, blog, anding, shortcodes, html5, css3, jquery, js, gallery, slider, touch, creative" />
+  <meta name="author" content="anna cherian" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.scss-->
+  <link href="css/styles.min.css" rel="stylesheet" media="screen">
+
+  <!-- Page Preloading -->
+  <script src="js/vendor/page-preloading.js"></script>
+
+  <!--Modernizr / Detectizr-->
+  <script src="js/vendor/modernizr.custom.js"></script>
+  <script src="js/vendor/detectizr.min.js"></script>
+</head>
+
+<!-- Body -->
+<!-- Adding/Removing class ".parallax" is enabling/disabling background parallax effect on elements with background images and attributes data-stellar-background-ratio applied to them. Make sure you also added/removed link to stellar.js script before </body>. -->
+<!-- Adding/Removing class ".page-preloading" is enabling/disabling background smooth page transition effect and spinner. Make sure you also added/removed link to page-preloading.js script before </body> and ".page-preloader" right after <body> tag. -->
+<body class="parallax page-preloading">
+
+  <!-- Page Pre-Loader -->
+  <div class="page-preloader">
+    <div class="spinner-wrap">
+      <div class="mdl-spinner mdl-js-spinner is-active"></div>
+    </div>
+  </div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <!-- Add class ".header-sticky" to make navbar stuck when it hits the top of the page. Another modifier class is: ".header-fullwidth" to stretch navbar and make it occupy 100% of the page width. The screen width at which header collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
+    <header class="site-header header-fullwidth header-sticky">
+      <div class="navbar">
+        <div class="inner">
+
+          <!-- Site Logo -->
+          <a href="index.html" class="site-logo">
+            <img src="img/logo.png" alt="Anna E. Cherian Portfolio">
+          </a>
+
+          <!-- Main Navigation -->
+          <nav class="main-navigation">
+            <!-- Alignment classes: pull-right, pull-left. -->
+            <div class="toolbox pull-right">
+              <div class="inner">
+                <a href="#" class="btn btn-floating btn-primary waves-effect waves-light" onclick="window.open('https://indd.adobe.com/view/5e09584a-a1e7-4d23-8d20-f0a8fb708099')">View My Resume
+               </a> 
+              </div>
+            </div><!-- .toolbox -->
+            <!-- Alignment classes: pull-right, pull-center. No class will align menu on the left. -->
+            <ul class="menu pull-right">
+              <li class="menu-item-has-children">
+                <a href="#">Work</a>
+                <ul class="sub-menu">
+                  <li><a href="portfolioproject1.html">Project 1</a></li>
+                  <li><a href="portfolioproject2.html">Project 2</a></li>
+                  <li><a href="portfolioproject3.html">Project 3</a></li>
+                </ul>
+              </li>
+              <li class="current-menu-item"><a href="index.html">Home</a></li>
+              <li><a href="BlogPage.html">Blog</a></li>
+              <li><a href="AboutMePage.html">About Me</a></li>
+              <li><a href="ContactPage.html">Contact</a></li>
+              <!-- <li><a href="elements.html">Elements</a></li> -->
+            </ul><!-- .menu -->
+          </nav><!-- .main-navigation -->
+
+          <!-- Mobile Menu Toggle -->
+          <!-- Visible only when viewport is 991px and less. Can be changed via $nav-collapse variables in _variables.scss -->
+          <div class="mobile-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div><!-- .mobile-menu-toggle -->
+        </div><!-- .inner -->
+      </div><!-- .navbar -->
+    </header><!-- .site-header -->
+
+    <!-- Portfolio Page -->
+    <div class="portfolio-page">
+
+      <!-- Sidebar -->
+      <span class="sidebar-toggle">
+        <i class="material-icons filter_list"></i>
+      </span>
+      <div class="sidebar-backdrop"></div>
+      <aside class="sidebar">
+        <span class="sidebar-close">
+          <i class="material-icons clear"></i>
+        </span>
+        <div class="scroll-area">
+          <a href="portfolioproject2.html" class="portfolio-post text-light waves-effect waves-light">
+            <span>Project 2</span>
+            <img src="img/portfolio/single/th01.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <a href="portfolioproject3.html" class="portfolio-post text-light waves-effect waves-light">
+            <span>Project 3</span>
+            <img src="img/portfolio/single/th02.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post -->
+          <!-- <a href="portfolioproject4.html" class="portfolio-post active text-light waves-effect waves-light">
+            <span>Project 4</span>
+            <img src="img/portfolio/single/th03.jpg" alt="Thumbnail"/>
+          </a><!-- .sportfolio-post --> 
+          <!-- <a href="portfolioproject5.html" class="portfolio-post text-light waves-effect waves-light">
+            <span>Project 5</span>
+            <img src="img/portfolio/single/th04.jpg" alt="Thumbnail"/> 
+          </a><!-- .sportfolio-post -->
+        </div><!-- .scroll-area -->
+      </aside><!-- .sidebar -->
+
+      <!-- Portfolio Post -->
+      <div class="portfolio-post-wrap">
+
+        <!-- Post Sharing -->
+        <ul class="post-sharing-bar">
+          <li class="sharing-toggle"><a href="#"><i class="fa fa-share-alt"></i></a></li>
+          <li><a href="https://twitter.com/home?status=Check%20out%20this%20awesome%20redesign%20%40CherianAnna%20made%20of%20the%20%40CapMetroATX%20bus%20app!%20%0Ahttp%3A//bit.ly/2wV6DrV"><i class="fa fa-twitter"></i></a></li>
+         <!-- <li><a href="#"><i class="fa fa-link"></i></a></li> -->
+         <!-- <li><a href="#"><i class="fa fa-email"></i></a></li> -->
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//bit.ly/2wV6DrV&title=The%20Austin%20Transit%20Experience%20Redefined&summary=Check%20out%20this%20awesome%20app%20redesign%20made%20by%20%23AnnaCherian%20for%20the%20CapMetroATX%20bus%20app.%20&source="><i class="fa fa-linkedin"></i></a></li>
+        </ul><!-- .post-sharing-bar -->
+
+        <div class="single-portfolio">
+          <div class="fw-setcion padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/single/vr01.jpg);" data-stellar-background-ratio="0.65">
+            <div class="single-post-container padding-top-3x padding-bottom-3x">
+              <h1 class="text-light text-huge text-extrathin padding-top-2x">Virtual Reality Headset Design Showcase</h1>
+              <div class="portfolio-meta padding-bottom-2x">
+                <span>Case Study</span>
+                <span>/</span>
+                <a href="#">Virtual Reality</a>
+              </div>
+            </div>
+          </div><!-- .fw-setcion -->
+          <div class="single-post-container padding-top-3x padding-bottom-3x">
+            <div class="row padding-top">
+              <div class="col-lg-6 padding-bottom-2x">
+                <h2>Discover the New Austin Transit Experience.</h2>
+                <p class="text-gray">Thing one: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos nemo, totam incidunt qui ratione. Harum magnam a dolor ducimus voluptatem autem fuga ipsam nam, enim quam non, doloribus, repellat. Suscipit itaque cupiditate tempora modi aut maiores impedit accusamus alias saepe, dolorem error. Optio officia fugit labore facere.</p>
+                 <p class="text-gray">Thing two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos nemo, totam incidunt qui ratione. Harum magnam a dolor ducimus voluptatem autem fuga ipsam nam, enim quam non, doloribus, repellat. Suscipit itaque cupiditate tempora modi aut maiores impedit accusamus alias saepe, dolorem error. Optio officia fugit labore facere.</p>
+                  <p class="text-gray">Thing three: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos nemo, totam incidunt qui ratione. Harum magnam a dolor ducimus voluptatem autem fuga ipsam nam, enim quam non, doloribus, repellat. Suscipit itaque cupiditate tempora modi aut maiores impedit accusamus alias saepe, dolorem error. Optio officia fugit labore facere.</p>
+              </div>
+              <div class="col-lg-6">
+                <img src="img/portfolio/single/vr02.jpg" class="block-center" alt="Oculus">
+              </div>
+            </div><!-- .row -->
+          </div><!-- .single-post-container -->
+          <div class="fw-section bg-no-cover padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/single/vr03.jpg); background-color: #0a0a0a;">
+            <div class="single-post-container"> 
+
+              <div class="row mobile-center">
+                <div class="col-lg-6 col-lg-offset-6 col-md-8 col-md-offset-4 padding-top text-light" 
+            
+                  <!-- Nav Tabs -->
+                  <ul class="nav-tabs" role="tablist">
+                    <li class="active"><a href="#Persona #1" role="tab" data-toggle="tab">Persona #1</a></li>
+                    <li><a href="#persona #2" role="tab" data-toggle="tab">Persona #2</a></li>
+                    <li><a href="#persona #3" role="tab" data-toggle="tab">Persona #3</a></li>
+                  </ul><!-- .nav-tabs -->
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane transition fade scale in active" id="persona1">
+                      <p>Persona #1 is XYZ</p>
+                      <p class="text-gray">Nostrum tempore fugit dolores magnam necessitatibus mollitia asperiores numquam, velit quibusdam nemo. Quis distinctio, dolores corporis eius officia ea iusto harum? Modi. Libero facilis aspernatur cumque, quisquam quod sint. Magnam labore, vitae tenetur temporibus sint veritatis deserunt consequatur reiciendis inventore.</p>
+                      <a href="#" class="btn btn-ghost btn-primary btn-light waves-effect waves-light">Learn More About How I Build Personas</a>
+                      <!-- blog post on personas -->
+                    </div>
+                    <div role="tabpanel" class="tab-pane transition fade scale" id="persona2">
+                      <p>Persona #2 is XYZ</p>
+                      <p class="text-gray">Nostrum tempore fugit dolores magnam necessitatibus mollitia asperiores numquam, velit quibusdam nemo. Quis distinctio, dolores corporis eius officia ea iusto harum? Modi. Libero facilis aspernatur cumque, quisquam quod sint. Magnam labore, vitae tenetur temporibus sint veritatis deserunt consequatur reiciendis inventore.</p>
+                      <a href="#" class="btn btn-ghost btn-primary btn-light waves-effect waves-light">Learn More About How I Build Personas</a>
+                    </div>
+                    <div role="tabpanel" class="tab-pane transition fade scale" id="persona3">
+                      <p>Persona #3 is XYZ</p>
+                      <p class="text-gray">Nostrum tempore fugit dolores magnam necessitatibus mollitia asperiores numquam, velit quibusdam nemo. Quis distinctio, dolores corporis eius officia ea iusto harum? Modi. Libero facilis aspernatur cumque, quisquam quod sint. Magnam labore, vitae tenetur temporibus sint veritatis deserunt consequatur reiciendis inventore.</p>
+                      <a href="#" class="btn btn-ghost btn-primary btn-light waves-effect waves-light">Learn More About How I Build Personas
+                      </a>
+                      <!-- link attached to blog post on building personas -->
+                    </div>
+                  </div><!-- .tab-content -->
+                </div>
+              </div><!-- .row -->
+            </div><!-- .single-post-container -->
+          </div><!-- .fw-section -->
+
+          <div class="fw-section padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/single/vr04.jpg); background-color: #cecece;">
+            <div class="single-post-container padding-top-3x padding-bottom-3x">
+              <div class="video-popup-btn text-light text-center padding-top-3x padding-bottom-3x">
+                <a href="https://www.youtube.com/watch?v=pN6YCFlS8nU" class="play-btn">
+                  <i class="material-icons play_arrow"></i>
+                </a>
+                <span class="btn-label">Our Design Process</span>
+              </div><!-- .video-popup-btn -->
+            </div><!-- .single-post-container -->
+          </div><!-- .fw-section --> 
+
+
+          <div class="single-post-container padding-top-3x padding-bottom-3x"> 
+            <div class="row padding-top padding-bottom">
+              <div class="col-lg-5 padding-bottom">
+                <h3> Lo-Fi to High-Fi Prototyping </h2>
+                <h4> Prototype Link Downloadable Here</h4>
+                <p>Through rapid iteration and testing, we quickly put together mockups of our designs and improved our system with each round.</p>
+                <p class="text-gray">We started small with simple sketches and wireframes. In our next round we began to implement more detail into our interface, until we eventually built out our entire platform with tools like Invision and Sketch to make a functional prototype.</p>
+              </div>
+              <div class="col-lg-7">
+                <!-- Data API:
+                  data-loop="true/false" enable/disable looping
+                  data-autoplay="true/false" enable/disable carousel autoplay
+                  data-interval="3000" autoplay interval timeout in miliseconds
+                  data-autoheight="true/false" to enable/disable autoheight
+                  Simply add necessary data attribute to the ".image-carousel" with appropriate value to adjust carousel functionality.
+                 -->
+                <div class="image-carousel">
+                  <div class="inner">
+                    <img src="img/portfolio/single/vr05.jpg" alt="Image">
+                    <img src="img/portfolio/single/vr06.jpg" alt="Image">
+                    <img src="img/portfolio/single/vr07.jpg" alt="Image">
+                  </div>
+                </div><!-- .image-carousel -->
+              </div>
+            </div>
+          </div><!-- .single-post-container -->
+        </div><!-- .single-portfolio -->
+      </div><!-- .portfolio-post-wrap -->
+    </div><!-- .portfolio-page -->
+
+<!-- VIDEO MOVED DOWN -->
+<div class="fw-section padding-top-3x padding-bottom-3x" style="background-image: url(img/portfolio/single/vr04.jpg); background-color: #cecece;">
+            <div class="single-post-container padding-top-3x padding-bottom-3x">
+              <div class="video-popup-btn text-light text-center padding-top-3x padding-bottom-3x">
+                <a href="https://www.youtube.com/watch?v=pN6YCFlS8nU" class="play-btn">
+                  <i class="material-icons play_arrow"></i>
+                </a>
+                <span class="btn-label">Deliverable</span>
+              </div><!-- .video-popup-btn -->
+            </div><!-- .single-post-container -->
+          </div><!-- .fw-section -->
+          <!-- NEW VIDEO MOVED DOWN -->
+
+    <!-- Scroll To Top Button -->
+    <a href="#" class="scroll-to-top-btn">
+      <i class="material-icons keyboard_arrow_up"></i>
+    </a><!-- .scroll-to-top-btn -->
+
+    <!-- Footer -->
+    <footer class="footer footer-alt">
+
+      <!-- Main footer -->
+      <div class="footer-main mobile-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="widget widget_links">
+                <h3 class="widget-title">Software Used</h3>
+                <ul>
+                  <li>Sketch &amp Invision</li>
+                  <li>HTML 5 &amp CSS</li>
+                  <li>Adobe After Effects</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe Premiere Pro</li>
+                  
+                </ul>
+              </div><!-- .widget.widget_links -->
+            </div><!-- .col-sm-4 -->
+            <div class="col-sm-8">
+              <div class="widget widget_instagram space-bottom-none">
+                <h3 class="widget-title">Follow My Vimeo</h3>
+                <div class="insta-row">
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/01.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/02.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/03.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/04.jpg" alt="Instagram"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="waves-effect waves-light"><img src="img/instagram/05.jpg" alt="Instagram"></a>
+                  </div>
+                </div>
+              </div><!-- .widget.widget_instagram -->
+            </div><!-- .col-sm-8 -->
+          </div><!-- .row -->
+        </div><!-- .container -->
+      </div><!-- .footer-main -->
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="inner">
+            <div class="column">
+              <p> Designed + Developed with <i class="fa fa-heart"></i> by Anna E. Cherian </p>
+            </div>
+          <div class="column text-right mobile-center">
+              <div class="social-bar">
+                 <a href="#" class="sb-twitter" data-toggle="tooltip" data-placement="top" title="Twitter" onclick="window.open('https://twitter.com/CherianAnna')">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="sb-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn" onclick="window.open('https://www.linkedin.com/in/anna-cherian-a7b906111/')"> 
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="#" class="sb-vimeo" data-toggle="tooltip" data-placement="top" title="Vimeo" onclick="window.open('https://vimeo.com/user70487178')">
+                  <i class="fa fa-vimeo"></i>
+                </a>
+                  <a href="#" class="sb-medium" data-toggle="tooltip" data-placement="top" title="Medium" onclick="window.open('https://medium.com/@annacherian')">
+                  <i class="fa fa-medium"></i>
+                </a>
+                <a href="#" class="sb-github" data-toggle="tooltip" data-placement="top" title="Github" onclick="window.open('https://github.com/annacheri/Portfolio')">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="#" class="sb-behance" data-toggle="tooltip" data-placement="top" title="Behance" onclick="window.open('https://www.behance.net/annacheriad03a')">
+                  <i class="fa fa-behance"></i>
+                </a>
+                <!-- Account not ready for launch -->
+                <a href="#" class="sb-steam" data-toggle="tooltip" data-placement="top" title="Steam" 
+                  <i class="fa fa-steam"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><!-- .container -->
+      </div><!-- .copyright -->
+    </footer><!-- .footer -->
+
+  </div><!-- .page-wrapper -->
+
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts -->
+  <script src="js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="js/vendor/jquery.easing.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/waves.min.js"></script>
+  <script src="js/vendor/smoothscroll.js"></script>
+  <script src="js/vendor/jquery.stellar.min.js"></script>
+  <script src="js/vendor/waypoints.min.js"></script>
+  <script src="js/vendor/velocity.min.js"></script>
+  <script src="js/vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/vendor/magnific-popup.min.js"></script>
+  <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body><!-- <body> -->
+
+</html>
