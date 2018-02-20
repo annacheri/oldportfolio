@@ -3342,10 +3342,7 @@ transform:scale(1);
 @media screen and (max-width: 768px){.floating-header {
 	padding:25px 15px;
 }
-
-.floating-header+* {
-	padding-top:175px;
-}}
+}
 
 .floating-header .main-navigation-wrap {
 	position:fixed;
