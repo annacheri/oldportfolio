@@ -9,6 +9,13 @@
   display: flex;
 }
 
+.anna {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
 .direction {
   position: fixed;
   top: 22em;
