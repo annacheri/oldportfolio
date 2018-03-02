@@ -33,6 +33,17 @@
   align-items: center;
 }
 
+@media (max-width: 375px) {
+  .camp {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+}
+
 .selection {
   color: #221043;
   text-decoration: none;
@@ -4164,6 +4175,14 @@ transform:scale(1);
   font-size:18px;
   font-weight:normal;
   margin-bottom:9px
+}
+
+.aec {
+  height: auto;
+  width: 135px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-tile .project-info .project-meta {

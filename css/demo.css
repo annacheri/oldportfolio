@@ -14,8 +14,8 @@ body {
 }
 
 @font-face {
-  font-family: "Chameleon Outline2";
-  src: url("../fonts/ChameleonOutline2-Regular.ttf") format("truetype");
+  font-family: "Chameleon Basic";
+  src: url("../fonts/ChameleonBasic-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -37,9 +37,8 @@ a {
 
 h1 {
 	color: #474283;
-	font-family: "Playfair display", serif;
-	font-style: italic;
-	font-weight: 900;
+	font-family: "PlayfairDisplay-BoldItalic", serif;
+	font-weight: 700;
 }
 
 a:hover,
@@ -95,7 +94,6 @@ a:focus {
 	width: 100%;
 	margin: 0;
 	color: #ffffff;
-	font-family: "Chameleon Outline2", serif;
 }
 
 .github {
