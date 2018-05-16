@@ -42,8 +42,8 @@ window['_fs_namespace'] = 'FS';
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="annaicon.ico" type="image/x-icon">
-  <link rel="icon" href="annaicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+  <link rel="icon" href="icon.ico" type="image/x-icon">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="css/styles.min.css" rel="stylesheet" media="screen">
@@ -99,7 +99,7 @@ window['_fs_namespace'] = 'FS';
               <ul class="sub-menu">
               </ul>
             </li>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Projects</a></li>
             <li><a href="AboutMePage.html">About Me</a></li>
             <a href="#" class="btn btn-ghost btn-primary waves-effect waves-light resume" onclick="window.open('img/Anna Resume.pdf')">View My Resume
                </a>
@@ -114,8 +114,6 @@ window['_fs_namespace'] = 'FS';
       <!-- Portfolio Post -->
 
         <div class="single-portfolio"> 
-          <!-- <div class="fw-setcion padding-top-1x padding-bottom-1x" style="background-image: url(img/portfolio/capmetro/logopic2.jpg);" data-stellar-background-ratio="0.65">
-            <div class="single-post-container padding-top-3x padding-bottom-3x"> -->
               <div class="portfolio-meta padding-bottom-2x">
               </div>
 
@@ -123,17 +121,19 @@ window['_fs_namespace'] = 'FS';
           </div><!-- .fw-setcion -->
            <section class="container">
                 <h2 <h2 class="block-titleindexsub space-top block-title-secondary" style="text-align: center;">Discover the New Austin Transportation Experience.</h2>
-
-                <iframe src="https://player.vimeo.com/video/246351575" width="100%" height="360px" class="center-block vimeo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <img src="img/portfolio/capmetro/intro.png" class="display center-block" alt="Cap Metro" alt="CapMetro">
+                
 
                 <h2 class="block-title space-top block-title-secondary">Objective</h2>
                   <p>It has been observed that Austin CapMetro App isn’t meeting users’ needs of easily finding routes to take and getting notifications for rides, which is causing less users to use the app and ride the bus. I asked myself how might I improve the existing application so that the product is more successful based on user use of the app and bus tickets bought.</p>
+                  <p><a href="#" class="music website" onclick="window.open('https://invis.io/3PEHJW2AN')">View Clickable Prototype (Invision Link)</a></p>
+                  <div class="padding-bottom-3x"></div>
 
                   <h2 class="block-title space-top block-title-secondary">Plan</h2>
                  <p>After identifying that the app inefficiently conveys information, I decided to ask potential users of the Austin CapMetro app what their current frusterations were with the existing app and what features they were looking for.</p>
                  <p>I asked users a series of questions to better understand their transportation behavior.
-                 <a href="#" class="text-gray" onclick="window.open('https://indd.adobe.com/view/4f271dc9-fcf2-4891-aa1c-1361b6cf3c38')">View Interview Questions Here.</a> 
-                  <p>Once I got initial insight to the current problems that exist within the CapMetro app, I also assigned users to login within the current application and perform different tasks to help me identify interface issues and identify needed features.</p>
+                 <a href="#" class="music website" onclick="window.open('https://indd.adobe.com/view/4f271dc9-fcf2-4891-aa1c-1361b6cf3c38')">View Interview Questions Here.</a> 
+                  <p>Once initial insight to the current problems that exist within the CapMetro app was collected, users were tasked to login within the current application and perform different tasks to help identify interface issues and identify needed features.</p>
                   <h6>Perform these tasks:</h6>
                     <ol>
                       <li>Open app and input a route from point A to point B.</li>
@@ -147,13 +147,13 @@ window['_fs_namespace'] = 'FS';
               <h2 class="block-title space-top block-title-secondary">Task Analysis</h2>
             <!-- test -->
           <div class="row padding-top padding-bottom">
-          <div class="col-lg-5 padding-bottom padding-top-3xd"> 
+          <div class="col-lg-12 padding-bottom padding-top-3xd"> 
  
               <p>Shown is the current workflow for performing these actions within the existing CapMetro app that stands, and listed below are my critiques.</p>
-              <p>To summarize my findings, the current app is not well designed for mobile use, and offers countless ways to accomplish the same task, which creates confusion for users.</p>
+              <p>To summarize the findings, the current app is not well designed for mobile use, and offers countless ways to accomplish the same task, which creates confusion for users.</p>
               <p></p>
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-12 padding-top-3x padding-bottom-3x">
                 <!-- Data API:
                   data-loop="true/false" enable/disable looping
                   data-autoplay="true/false" enable/disable carousel autoplay
@@ -172,9 +172,11 @@ window['_fs_namespace'] = 'FS';
             </div>
 
         <!-- Personas -->
-          <p>After speaking with potential users and getting feedback on the existing app, I built out a few personas to keep in mind target users of the app. This helped me design for the specific problems identified by customers.</p>
+        <h2 class="block-title space-top block-title-secondary">Perspective: Personas &amp User Journey Map</h2>
 
-        <div class="personas">
+          <p>After speaking with potential users and getting feedback on the existing app, a few personas were built to keep in mind target users of the app. This ensures that the design solves the specific problems identified by customers.</p>
+
+        <div class="personas padding-top-3x padding-bottom-3x">
           <div class="photoleft">
             <img src="img/portfolio/capmetro/persona1.png" alt ="persona 1">
           </div>
@@ -183,30 +185,27 @@ window['_fs_namespace'] = 'FS';
           </div>
         </div>
 
-        <p>I decided to focus on designing specifically with the biker persona in mind, with the intention of creating an easier experience transitioning from bike to bus on a person's daily commute while remaining mobile. I mapped out a user journey for the biker to anticipate his or her experience with the product I was going to build.</p>
-        <img src="img/portfolio/capmetro/capmetrojourneymap.png" alt="crazy 8's"> 
+        <p>The design focused on the biker persona, with the intention of creating an easier experience transitioning from bike to bus on a person's daily commute. A user journey map for the biker to anticipate his or her experience with the product was built.</p>
+        <img src="img/portfolio/capmetro/capmetrojourneymap.png" class="padding-top-3x padding-bottom-3x" alt="crazy 8's"> 
        </section>
 
-       <section class="container padding-top-3x">
-        <p>I quickly brainstormed solutions for the selected biker persona. I wanted features that enabled users to reserve a spot on the bike rack, a way to let bus drivers know that extra time should be alloted for the loading time, and to reserve bus spots for special needs, like handicap seats. The ultimate goal of the CapMetro design was to simplify.</p>
+       <section class="container padding-top-3x padding-bottom-3x">
+        <p>Solutions were quickly brainstormed for the selected biker persona. Features included users the ability to reserve a spot on the bike rack, a way to let bus drivers know that extra time should be alloted for the loading time, and to reserve bus spots for special needs, like handicap seats. The ultimate goal of the CapMetro design was to simplify.</p>
         <p>After looking at the major takeaways fron user interviews, persona building, evaluating the current task analysis, and making a user journey, a new task analysis of the CapMetro App as an apple watch app was mapped out.</p>
+        <img src="img/portfolio/capmetro/workflow1.png" class="padding-top-3x padding-bottom-3x" alt="task analysis">
         <div class="personas">
           <div class="photoleft">
             <img src="img/portfolio/capmetro/maingoals.png" alt="Main Goals">
           </div>
-          <div class="photoright">
-           <img src="img/portfolio/capmetro/workflow.png" alt="task analysis">
-          </div>
         </div> 
-        <h2 class="block-title space-top block-title-secondary"> Lo-Fi to High-Fi Prototyping </h2>    
+        <h2 class="block-title space-top block-title-secondary padding-top-3x"> Lo-Fi to High-Fi Prototyping </h2>    
         <div class="row padding-top padding-bottom">
-          <div class="col-lg-5 padding-bottom padding-top-3xd"> 
+          <div class="col-lg-12 padding-bottom padding-top-3xd"> 
  
-              <p>Through rapid iteration and testing, I quickly put together mockups of my designs and improved my system with each round.</p>
-              <p>I started small with simple sketches and wireframes. In the next round I began to implement more detail into the interface, until I eventually built out an entire platform with tools like Invision and Sketch to make a functional prototype.</p>
+              <p>Through rapid iteration and testing, mockups of the designs were made and improved with each round. The work began with simple sketches and wireframes. In the next round more detail was implemented into the interface, until eventually an entire platform was built out with tools like Invision and Sketch to make a functional prototype.
               <p>Click arrow to see lower fidelities &amp visual design.</p>
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-12 padding-bottom-3x padding-top-3x">
                 <!-- Data API:
                   data-loop="true/false" enable/disable looping
                   data-autoplay="true/false" enable/disable carousel autoplay
@@ -217,56 +216,29 @@ window['_fs_namespace'] = 'FS';
                 <div class="image-carousel">
                   <div class="inner">
                     <img src="img/portfolio/capmetro/hifi.png" alt="hifi">
-                    <img src="img/portfolio/capmetro/visualdesign.png" alt="visual design">
-                    <img src="img/portfolio/capmetro/medfi.png" alt="medfi">
-                    <img src="img/portfolio/capmetro/lofidel.png" alt="sketches">
+<!--                     <img src="img/portfolio/capmetro/medfi.png" alt="medfi">
+ -->                    <img src="img/portfolio/capmetro/lofidel.png" alt="sketches">
                     <img src="img/portfolio/capmetro/crazy8.png" alt="crazy 8's">
                   </div>
                 </div><!-- .image-carousel -->
               </div><!-- div class-->
             </div>
 
-          <h2 class="block-title space-top block-title-secondary"> Style Choices </h2> 
+          <h2 class="block-title space-top block-title-secondary"> Visual Design</h2> 
               <p>The color scheme was chosen by implementing the two blues currently used on the existing app. The yellow seen throughout the app again was a color pulled from the existing app, and even provides a reminiscent feel to a traditional school bus color. The lighter shades of pink, gray, and taupe intend to reflect the colors commonly seen on maps.</p>
-              <p>The font was as a simple choice with the purpose of being easily readable especially while users are moving throughout their day.</p>
-              <p>The touch and interaction for the watch also aimed to increase ease of use. Apple Watch screens are small and are successful when they don’t require a lot of manual navigation within the app. CapMetro prompts screens only that are necessary and automatically slide to the left when the screen leads you to the next.</p>
-
+              <img src="img/portfolio/capmetro/visualdesign.png" class="padding-top-3x padding-bottom-3x" alt="visual design">
 
               <h2 class="block-title space-top block-title-secondary"> Survey Design &amp Usability Testing </h2> 
-                <p>With the high fidelity mockups complete, I was ready to recruit users to test out the product. I sent out a screener survey to my network to find five ideal candidates that represented my targeted user - a person living in Austin who heavily used public transportation and would be interested in RSVPing seats for his or her specific needs. I allowed my survey to be general enough that users would not know exactly what kind of software I would be testing to reduce volunteer or response bias. Once I pinpointed the most representative respondants for my targeted users, I met with them to observe their interactions with the CapMetro Prototype I mocked up in Invision.</p>
-                <p><a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScTpFXoqiYlU7fgOlMuuBLyIikYOy2b5xP_002vW9aGVzioRw/viewform')">CapMetro Screener Survey</a></p>
-                 <h4><a href="#" class="btn btn-ghost btn-primary waves-effect waves-light" onclick="window.open('https://invis.io/3PEHJW2AN')">Invision Prototype Link</a></h4>
+                <p>With the high fidelity mockups complete, users were recruited to test out the product. A screener survey was sent out to find five ideal candidates that represented the targeted user - a person living in Austin who heavily used public transportation and would be interested in RSVPing seats for his or her specific needs. The survey was general enough that users would not know exactly what kind of software would be tested to reduce volunteer or response bias. Once the most representative respondants were pinpointed for the targeted users, they were met with to observe interactions with the CapMetro Prototype mocked up in Invision.</p>
+                <p><a href="#" class="music website" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScTpFXoqiYlU7fgOlMuuBLyIikYOy2b5xP_002vW9aGVzioRw/viewform')">CapMetro Screener Survey</a></p>
+                 <p><a href="#" class="music website" onclick="window.open('https://invis.io/3PEHJW2AN')">View Clickable Prototype (Invision Link)</a></p>
 
-
-               <a href="momacampaign.html"><div class="btn btn-ghost btn-primary waves-effect waves-light resume" style="margin-bottom: 30px;">Previous</div></a>
-  				<a href="PhotoReady.html"><div class="btn btn-ghost btn-primary waves-effect waves-light pull-right resume" style="margin-bottom: 30px;">Next</div></a>
           </section><!-- .single-post-container -->
 
     <!-- Scroll To Top Button -->
     <a href="#" class="scroll-to-top-btn">
       <i class="material-icons keyboard_arrow_up"></i>
     </a><!-- .scroll-to-top-btn -->
-
-    <!-- Footer -->
-    <footer class="footer footer-alt">
-
-      <!-- Main footer -->
-      <div class="footer-main mobile-center">
-        <div class="container">
-          <div class="row">
-            </div><!-- .col-sm-4 -->
-             <div class="col-sm-12 center-block">
-               <div class="widget widget_links">
-              	<h3 class="widget-title">Software Used</h3>
-                <p>Sketch, Invision, HTML 5, CSS, Adobe After Effects, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator, Draw.io, Adobe InDesign. 
-                </p>
-                  
-                </div>
-              </div><!-- .widget.widget_instagram -->
-            </div><!-- .col-sm-8 -->
-          </div><!-- .row -->
-        </div><!-- .container -->
-      </div><!-- .footer-main -->
 
 
     <!-- Footer -->
@@ -280,13 +252,13 @@ window['_fs_namespace'] = 'FS';
             <a href="index.html" style="max-width: 79px;">
               <img src="img/footer.png" class="aec" alt="Anna">
             </a>
-            <p class="copyright-text"> Designed + Developed with <i class="fa fa-heart"></i> by Anna E. Cherian </p>
+            <p class="copyright-text"> Designed + Developed with <i class="fa fa-heart"></i> by Anna</p>
           </div>
         </div>
         <div class="column">
           <div class="widget widget_menu">
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Projects</a></li>
               <li class="current-menu-item"><a href="CapMetroApp.html">Project - Cap Metro</a></li>
               <li><a href="AboutMePage.html">About Me</a></li>
             </ul>
@@ -309,10 +281,6 @@ window['_fs_namespace'] = 'FS';
               </a>
               <!-- <a href="#" class="sb-behance" data-toggle="tooltip" data-placement="top" title="Behance" onclick="window.open('https://www.behance.net/annacheriad03a')">
                 <i class="fa fa-behance"></i>
-              </a> -->
-              <!-- Account not ready for launch -->
-<!--               <a href="#" class="sb-steam" data-toggle="tooltip" data-placement="top" title="Steam"
-                <i class="fa fa-steam"></i>
               </a> -->
               </a>
             </div>
