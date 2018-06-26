@@ -5,6 +5,18 @@
   }
 }
 
+.hititle {
+  font-family: "ZapfHumanist", sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-top: 2em;
+}
+
+@font-face {
+  font-family: "ZapfHumanist";
+  src: url("../fonts/ZapfHumnst-BT-Roman.ttf") format("truetype");
+}
+
 .personas {
   display: flex;
 }
