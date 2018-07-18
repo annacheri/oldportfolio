@@ -22,6 +22,16 @@
   src: url("../fonts/EBGaramond-Regular.ttf") format("truetype");
 }
 
+#senty {
+ padding-bottom: 400px !important;
+}
+
+@media screen and (max-width: 375px) {
+	#senty {
+		padding-bottom: 0;
+	}
+}
+
 .personas {
   display: flex;
 }
