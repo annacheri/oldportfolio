@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 375px) {
 	#senty {
-		padding-bottom: 0;
+		display: none !important;
 	}
 }
 
@@ -4080,7 +4080,7 @@ transform:scale(1);
   font-size:24px;
   color:#000000;
   line-height:1.5;
-  text-transform:uppercase;
+  text-transform: none !important;
   letter-spacing:.1em;
   padding-bottom:10px;
   text-align: center;
@@ -4220,8 +4220,8 @@ transform:scale(1);
 }
 
 .under {
-  border-bottom: 5px;
-  color: #252424;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .client .text>span {
