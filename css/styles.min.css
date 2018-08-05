@@ -12,6 +12,10 @@
   margin-top: 2em;
 }
 
+.about-me {
+  font-size: 16px;
+}
+
 @font-face {
   font-family: "ZapfHumanist";
   src: url("../fonts/ZapfHumnst-BT-Roman.ttf") format("truetype");
@@ -2199,8 +2203,8 @@ h5,.h5 {
 }
 
 h6,.h6 {
-  font-size:16px;
-  font-weight:400;
+  font-size:10px;
+  font-weight:300;
   font-style:normal;
   text-transform:none;
   line-height:1.5;
